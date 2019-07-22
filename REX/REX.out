@@ -1,0 +1,75 @@
+\BOOKMARK [-1][-]{part.1}{I Introduction}{}% 1
+\BOOKMARK [0][-]{section.0.1}{Histoire}{part.1}% 2
+\BOOKMARK [1][-]{section.0.2}{R\364le de Minotaure}{section.0.1}% 3
+\BOOKMARK [1][-]{section.0.3}{Les diff\351rentes \351quipes au cours du temps}{section.0.1}% 4
+\BOOKMARK [2][-]{subsection.0.3.1}{2017-2018}{section.0.3}% 5
+\BOOKMARK [2][-]{subsection.0.3.2}{2018-2019}{section.0.3}% 6
+\BOOKMARK [-1][-]{part.2}{II Composants}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Actionneurs}{part.2}% 8
+\BOOKMARK [1][-]{section.1.1}{Moteurs pas-\340-pas}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.1}{Utilisation}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Moteurs \340 courant continu}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{Utilisation}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{Moteurs brushless}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{Utilisation}{section.1.3}% 14
+\BOOKMARK [1][-]{section.1.4}{Servomoteurs}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.4.1}{Cablages}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.2}{Utilisation}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{Les Dynamixels}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter.2}{Syst\350me pneumatique}{part.2}% 19
+\BOOKMARK [1][-]{section.2.1}{Pompe}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.1.1}{Pneumatique}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.2}{Hydrolique}{section.2.1}% 22
+\BOOKMARK [1][-]{section.2.2}{Ventouse}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.3}{Accessoires et autres}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{Communication}{part.2}% 25
+\BOOKMARK [1][-]{section.3.1}{Radio}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.2}{Bluetooth}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.3}{Module Xbee}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Cartes \351lectroniques}{part.2}% 29
+\BOOKMARK [1][-]{section.4.1}{Arduino}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Raspberry Pi}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Ports USB}{section.4.2}% 32
+\BOOKMARK [1][-]{section.4.3}{Teensy}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Capteurs}{part.2}% 34
+\BOOKMARK [1][-]{section.5.1}{GNSS}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{LIDAR}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Mat\351riel}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Utilisation}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{Ultrason}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{Infrarouge}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.5}{Capteurs de fin de course}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.6}{Codeurs incr\351mentaux}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.7}{Cam\351ra}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.7.1}{Mat\351riel}{section.5.7}% 44
+\BOOKMARK [2][-]{subsection.5.7.2}{Utilisation}{section.5.7}% 45
+\BOOKMARK [0][-]{chapter.6}{Alimentation}{part.2}% 46
+\BOOKMARK [1][-]{section.6.1}{Batterie}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.1.1}{Lipo}{section.6.1}% 48
+\BOOKMARK [2][-]{subsection.6.1.2}{Nimh}{section.6.1}% 49
+\BOOKMARK [2][-]{subsection.6.1.3}{Chargeur}{section.6.1}% 50
+\BOOKMARK [1][-]{section.6.2}{Adapter l'alimentation}{chapter.6}% 51
+\BOOKMARK [2][-]{subsection.6.2.1}{BEC}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.2}{R\351gulateurs de tension lin\351aire}{section.6.2}% 53
+\BOOKMARK [2][-]{subsection.6.2.3}{Convertisseur Buck}{section.6.2}% 54
+\BOOKMARK [-1][-]{part.3}{III Programmation}{}% 55
+\BOOKMARK [0][-]{chapter.7}{Raspbian}{part.3}% 56
+\BOOKMARK [1][-]{section.7.1}{Le Set up}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.2}{Le syst\350me d'exploitation}{chapter.7}% 58
+\BOOKMARK [2][-]{subsection.7.2.1}{Les commandes utiles}{section.7.2}% 59
+\BOOKMARK [2][-]{subsection.7.2.2}{Utiliser une clef USB}{section.7.2}% 60
+\BOOKMARK [0][-]{chapter.8}{Le code}{part.3}% 61
+\BOOKMARK [1][-]{section.8.1}{Python}{chapter.8}% 62
+\BOOKMARK [1][-]{section.8.2}{C/C++}{chapter.8}% 63
+\BOOKMARK [2][-]{subsection.8.2.1}{Cross-compilation}{section.8.2}% 64
+\BOOKMARK [0][-]{chapter.9}{Traitement de signaux GNSS: RTK Lib}{part.3}% 65
+\BOOKMARK [0][-]{chapter.10}{Traitement d'images: OpenCV}{part.3}% 66
+\BOOKMARK [0][-]{chapter.11}{ROS}{part.3}% 67
+\BOOKMARK [-1][-]{part.4}{IV Conception}{}% 68
+\BOOKMARK [0][-]{chapter.12}{G\351n\351ral}{part.4}% 69
+\BOOKMARK [0][-]{chapter.13}{CAO}{part.4}% 70
+\BOOKMARK [-1][-]{part.5}{V La Coupe de France de Robotique}{}% 71
+\BOOKMARK [0][-]{chapter.14}{Pendant l'ann\351e}{part.5}% 72
+\BOOKMARK [0][-]{chapter.15}{Le d\351part}{part.5}% 73
+\BOOKMARK [0][-]{chapter.16}{La comp\351tition}{part.5}% 74
+\BOOKMARK [1][-]{section.16.1}{Les matchs}{chapter.16}% 75
