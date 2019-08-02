@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.22)  22 JUL 2019 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.22)  2 AUG 2019 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,7 +797,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 LaTeX Warning: No \author given.
 
-<images/LogoMinotaure.png, id=305, 359.54324pt x 423.86356pt>
+<images/LogoMinotaure.png, id=458, 359.54324pt x 423.86356pt>
 File: images/LogoMinotaure.png Graphic file (type png)
 <use images/LogoMinotaure.png>
 Package pdftex.def Info: images/LogoMinotaure.png  used on input line 28.
@@ -812,215 +812,401 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 ...mberline {5.4}Infrarouge}{14}{section.5.4}
+l.50 ...1}Mat\IeC {\'e}riel}{22}{subsection.5.2.1}
                                                    [1
 
-])
+] [2])
 \tf@toc=\write4
 \openout4 = `REX.toc'.
 
- [2] [3
+ [3] [4
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 40.
 
-[4] [5
+[5] [6
 
 ]
 Chapitre 1.
-<images/MoteurPasAPas.png, id=414, 684.5575pt x 434.62375pt>
+<images/MoteurPasAPas.png, id=610, 684.5575pt x 434.62375pt>
 File: images/MoteurPasAPas.png Graphic file (type png)
 <use images/MoteurPasAPas.png>
 Package pdftex.def Info: images/MoteurPasAPas.png  used on input line 59.
 (pdftex.def)             Requested size: 338.58632pt x 214.9703pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 71.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (74.43535pt too wide) in paragraph at lines 71--72
-[][]$\T1/lmtt/m/n/10.95 https : / / eskimon . fr / tuto-[]arduino-[]603-[]a-[]p
-etits-[]pas-[]le-[]moteur-[]pas-[] % C3 % A0-[]pas # se-[]servir-[]du-[]moteur$
-[] 
- []
-
-<images/DifferentsMPP.jpg, id=416, 803.0pt x 261.97874pt>
+<images/DifferentsMPP.jpg, id=611, 803.0pt x 261.97874pt>
 File: images/DifferentsMPP.jpg Graphic file (type jpg)
 <use images/DifferentsMPP.jpg>
-Package pdftex.def Info: images/DifferentsMPP.jpg  used on input line 75.
+Package pdftex.def Info: images/DifferentsMPP.jpg  used on input line 73.
 (pdftex.def)             Requested size: 338.58632pt x 110.46603pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6
+[7
 
  <./images/MoteurPasAPas.png>]
-Overfull \hbox (23.67986pt too wide) in paragraph at lines 89--90
-[]\T1/lmr/m/n/10.95 Vidéos ex-pli-ca-tives des mo-teurs pas-à-pas hy-dides : ht
-tps ://www.youtube.com/watch ?v=eyqwLiowZiU 
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 87.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (26.14401pt too wide) in paragraph at lines 87--88
+[]\T1/lmr/m/n/10.95 Vidéos ex-pli-ca-tives des mo-teurs pas-à-pas hy-brides : [
+]$\T1/lmtt/m/n/10.95 https : / / www . youtube . com / watch ? v = eyqwLiowZiU$
+[] 
  []
 
-<images/SpeedCalculator.jpeg, id=426, 338.76563pt x 155.07938pt>
+<images/SpeedCalculator.jpeg, id=620, 338.76563pt x 155.07938pt>
 File: images/SpeedCalculator.jpeg Graphic file (type jpg)
 <use images/SpeedCalculator.jpeg>
-Package pdftex.def Info: images/SpeedCalculator.jpeg  used on input line 125.
+Package pdftex.def Info: images/SpeedCalculator.jpeg  used on input line 123.
 (pdftex.def)             Requested size: 338.58632pt x 155.00325pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (52.90964pt too wide) in paragraph at lines 129--131
+Overfull \hbox (28.39427pt too wide) in paragraph at lines 127--129
 []\T1/lmr/m/n/10.95 Une ver-sion en ligne per-met de faire le cal-cul di-rec-te
--ment. https ://www.daycounter.com/Calculators/Stepper-
+-ment. []$\T1/lmtt/m/n/10.95 https : / / www . daycounter . com / Calculators /
+
  []
 
-<images/CoupleMaintien.png, id=427, 1036.87375pt x 373.395pt>
+<images/CoupleMaintien.png, id=622, 1036.87375pt x 373.395pt>
 File: images/CoupleMaintien.png Graphic file (type png)
 <use images/CoupleMaintien.png>
-Package pdftex.def Info: images/CoupleMaintien.png  used on input line 137.
+Package pdftex.def Info: images/CoupleMaintien.png  used on input line 135.
 (pdftex.def)             Requested size: 338.58632pt x 121.93307pt.
-<images/reponse_indicielleMPP.png, id=428, 602.25pt x 297.11pt>
+<images/reponse_indicielleMPP.png, id=623, 602.25pt x 297.11pt>
 File: images/reponse_indicielleMPP.png Graphic file (type png)
 <use images/reponse_indicielleMPP.png>
 Package pdftex.def Info: images/reponse_indicielleMPP.png  used on input line 1
-38.
+36.
 (pdftex.def)             Requested size: 338.58632pt x 167.04236pt.
-[7 <./images/DifferentsMPP.jpg>]
-<images/MoteurDC.jpeg, id=436, 602.25pt x 451.6875pt>
+
+Overfull \hbox (11.44548pt too wide) in paragraph at lines 144--145
+\T1/lmtt/m/n/10.95 eskimon . fr / tuto-[]arduino-[]603-[]a-[]petits-[]pas-[]le-
+[]moteur-[]pas-[] % C3 % A0-[]pas # se-[]servir-[]du-[]moteur$[] 
+ []
+
+
+Overfull \hbox (19.69675pt too wide) in paragraph at lines 148--149
+[][]$\T1/lmtt/m/n/10.95 https : / / fr . rs-[]online . com / web / p / kits-[]d
+e-[]developpement-[]pour-[]commande-[]de-[]moteur / 1646982$[] 
+ []
+
+[8 <./images/DifferentsMPP.jpg>]
+<images/MoteurDC.jpeg, id=636, 602.25pt x 451.6875pt>
 File: images/MoteurDC.jpeg Graphic file (type jpg)
 <use images/MoteurDC.jpeg>
-Package pdftex.def Info: images/MoteurDC.jpeg  used on input line 162.
+Package pdftex.def Info: images/MoteurDC.jpeg  used on input line 158.
 (pdftex.def)             Requested size: 338.58632pt x 253.94952pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/MoteurBrushless.jpg, id=437, 192.72pt x 129.8451pt>
+
+Overfull \hbox (48.18661pt too wide) in paragraph at lines 182--184
+[]$\T1/lmtt/m/n/10.95 https : / / openclassrooms . com / fr / courses / 2778161
+-[]programmez-[]vos-[]premiers-[]montages-[]avec-[]arduino /
+ []
+
+<images/MoteurBrushless.jpg, id=639, 192.72pt x 129.8451pt>
 File: images/MoteurBrushless.jpg Graphic file (type jpg)
 <use images/MoteurBrushless.jpg>
-Package pdftex.def Info: images/MoteurBrushless.jpg  used on input line 189.
+Package pdftex.def Info: images/MoteurBrushless.jpg  used on input line 192.
 (pdftex.def)             Requested size: 338.58632pt x 228.12187pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/ESC.jpg, id=438, 1846.9pt x 861.2175pt>
+<images/ESC.jpg, id=640, 1846.9pt x 861.2175pt>
 File: images/ESC.jpg Graphic file (type jpg)
 <use images/ESC.jpg>
-Package pdftex.def Info: images/ESC.jpg  used on input line 199.
+Package pdftex.def Info: images/ESC.jpg  used on input line 213.
 (pdftex.def)             Requested size: 338.58632pt x 157.87721pt.
+[9 <./images/SpeedCalculator.jpeg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./images/SpeedCalculator.jpeg>] [9 <./images/CoupleMaintien.png> <./images/
-reponse_indicielleMPP.png>] [10 <./images/MoteurDC.jpeg> <./images/MoteurBrushl
-ess.jpg> <./images/ESC.jpg>]
+<images/servomoteur.jpg, id=648, 602.25pt x 602.25pt>
+File: images/servomoteur.jpg Graphic file (type jpg)
+<use images/servomoteur.jpg>
+Package pdftex.def Info: images/servomoteur.jpg  used on input line 222.
+(pdftex.def)             Requested size: 338.58632pt x 338.59937pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/schemaServo.jpg, id=649, 401.5pt x 401.5pt>
+File: images/schemaServo.jpg Graphic file (type jpg)
+<use images/schemaServo.jpg>
+Package pdftex.def Info: images/schemaServo.jpg  used on input line 231.
+(pdftex.def)             Requested size: 241.84843pt x 241.85144pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/PWMservo.jpeg, id=650, 313.17pt x 161.60374pt>
+File: images/PWMservo.jpeg Graphic file (type jpg)
+<use images/PWMservo.jpeg>
+Package pdftex.def Info: images/PWMservo.jpeg  used on input line 267.
+(pdftex.def)             Requested size: 241.84843pt x 124.80515pt.
+[10 <./images/CoupleMaintien.png> <./images/reponse_indicielleMPP.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./images/MoteurDC.jpeg>] [12 <./images/MoteurBrushless.jpg> <./images/ESC.
+jpg>] [13 <./images/servomoteur.jpg> <./images/schemaServo.jpg>] [14 <./images/
+PWMservo.jpeg>]
 Chapitre 2.
-[11
+[15
 
 ]
 Chapitre 3.
-[12
-
-]
-Chapitre 4.
-[13
-
-]
-Chapitre 5.
-<images/NuageDePoints.png, id=476, 385.44pt x 136.8312pt>
-File: images/NuageDePoints.png Graphic file (type png)
-<use images/NuageDePoints.png>
-Package pdftex.def Info: images/NuageDePoints.png  used on input line 325.
-(pdftex.def)             Requested size: 241.84843pt x 85.85542pt.
-<images/RPLidar.jpg, id=477, 973.6375pt x 730.73pt>
-File: images/RPLidar.jpg Graphic file (type jpg)
-<use images/RPLidar.jpg>
-Package pdftex.def Info: images/RPLidar.jpg  used on input line 332.
-(pdftex.def)             Requested size: 241.84843pt x 181.51129pt.
+<images/recepteurRadio.jpg, id=688, 1003.75pt x 1003.75pt>
+File: images/recepteurRadio.jpg Graphic file (type jpg)
+<use images/recepteurRadio.jpg>
+Package pdftex.def Info: images/recepteurRadio.jpg  used on input line 318.
+(pdftex.def)             Requested size: 241.84843pt x 241.83919pt.
+<images/taranis.jpg, id=689, 426.09187pt x 312.41719pt>
+File: images/taranis.jpg Graphic file (type jpg)
+<use images/taranis.jpg>
+Package pdftex.def Info: images/taranis.jpg  used on input line 327.
+(pdftex.def)             Requested size: 241.84843pt x 177.3312pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14
+<images/dongleBluetooth.jpeg, id=690, 225.84375pt x 225.84375pt>
+File: images/dongleBluetooth.jpeg Graphic file (type jpg)
+<use images/dongleBluetooth.jpeg>
+Package pdftex.def Info: images/dongleBluetooth.jpeg  used on input line 336.
+(pdftex.def)             Requested size: 241.84843pt x 241.86406pt.
 
- <./images/NuageDePoints.png>] [15 <./images/RPLidar.jpg>]
-Chapitre 6.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/XBee.jpg, id=691, 602.25pt x 602.25pt>
+File: images/XBee.jpg Graphic file (type jpg)
+<use images/XBee.jpg>
+Package pdftex.def Info: images/XBee.jpg  used on input line 349.
+(pdftex.def)             Requested size: 241.84843pt x 241.85144pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [16
 
-] [17
+ <./images/recepteurRadio.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 358.
 
-]
-Chapitre 7.
-[18
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 358.
 
-] [19]
-Chapitre 8.
-[20
+[17 <./images/taranis.jpg> <./images/dongleBluetooth.jpeg>] [18 <./images/XBee.
+jpg>]
+Chapitre 4.
+<images/cartesArduino.jpg, id=712, 642.4pt x 249.93375pt>
+File: images/cartesArduino.jpg Graphic file (type jpg)
+<use images/cartesArduino.jpg>
+Package pdftex.def Info: images/cartesArduino.jpg  used on input line 368.
+(pdftex.def)             Requested size: 241.84843pt x 94.09485pt.
+[19
 
-]
-Chapitre 9.
+ <./images/cartesArduino.jpg>] [20]
+Chapitre 5.
+<images/NuageDePoints.png, id=724, 385.44pt x 136.8312pt>
+File: images/NuageDePoints.png Graphic file (type png)
+<use images/NuageDePoints.png>
+Package pdftex.def Info: images/NuageDePoints.png  used on input line 447.
+(pdftex.def)             Requested size: 241.84843pt x 85.85542pt.
 [21
+
+ <./images/NuageDePoints.png>]
+<images/RPLidar.jpg, id=734, 973.6375pt x 730.73pt>
+File: images/RPLidar.jpg Graphic file (type jpg)
+<use images/RPLidar.jpg>
+Package pdftex.def Info: images/RPLidar.jpg  used on input line 456.
+(pdftex.def)             Requested size: 241.84843pt x 181.51129pt.
+<images/capteurInfrarougeActif.jpg, id=735, 803.0pt x 803.0pt>
+File: images/capteurInfrarougeActif.jpg Graphic file (type jpg)
+<use images/capteurInfrarougeActif.jpg>
+Package pdftex.def Info: images/capteurInfrarougeActif.jpg  used on input line 
+481.
+(pdftex.def)             Requested size: 241.84843pt x 241.84532pt.
+<images/capteurInfrarougePassif.jpg, id=736, 467.7475pt x 467.7475pt>
+File: images/capteurInfrarougePassif.jpg Graphic file (type jpg)
+<use images/capteurInfrarougePassif.jpg>
+Package pdftex.def Info: images/capteurInfrarougePassif.jpg  used on input line
+ 482.
+(pdftex.def)             Requested size: 241.84843pt x 241.8526pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./images/RPLidar.jpg>]
+<images/photoCodeurIncremental.JPG, id=742, 401.5pt x 314.17375pt>
+File: images/photoCodeurIncremental.JPG Graphic file (type jpg)
+<use images/photoCodeurIncremental.JPG>
+Package pdftex.def Info: images/photoCodeurIncremental.JPG  used on input line 
+513.
+(pdftex.def)             Requested size: 241.84843pt x 189.24875pt.
+ [23 <./images/capteurInfrarougeActif.jpg> <./images/capteurInfrarougePassif.jp
+g>]
+<images/codeurIncremental.jpg, id=748, 386.44376pt x 234.8775pt>
+File: images/codeurIncremental.jpg Graphic file (type jpg)
+<use images/codeurIncremental.jpg>
+Package pdftex.def Info: images/codeurIncremental.jpg  used on input line 524.
+(pdftex.def)             Requested size: 241.84843pt x 146.99518pt.
+<images/schemaCodeurIncremental.jpeg, id=749, 254.9525pt x 199.74625pt>
+File: images/schemaCodeurIncremental.jpeg Graphic file (type jpg)
+<use images/schemaCodeurIncremental.jpeg>
+Package pdftex.def Info: images/schemaCodeurIncremental.jpeg  used on input lin
+e 525.
+(pdftex.def)             Requested size: 241.84843pt x 189.48964pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./images/photoCodeurIncremental.JPG>] [25 <./images/codeurIncremental.jpg>
+ <./images/schemaCodeurIncremental.jpeg>]
+Chapitre 6.
+[26
+
+] [27]
+Chapitre 7.
+[28
+
+] [29
+
+]
+Chapitre 8.
+[30
+
+] [31]
+Chapitre 9.
+[32
 
 ]
 Chapitre 10.
-[22
+[33
 
 ]
 Chapitre 11.
-[23
+<images/RGB_HSV.jpg, id=798, 640.3925pt x 400.49625pt>
+File: images/RGB_HSV.jpg Graphic file (type jpg)
+<use images/RGB_HSV.jpg>
+Package pdftex.def Info: images/RGB_HSV.jpg  used on input line 715.
+(pdftex.def)             Requested size: 338.58632pt x 211.74867pt.
+<images/HSL_HSV.jpg, id=799, 301.125pt x 451.6875pt>
+File: images/HSL_HSV.jpg Graphic file (type jpg)
+<use images/HSL_HSV.jpg>
+Package pdftex.def Info: images/HSL_HSV.jpg  used on input line 716.
+(pdftex.def)             Requested size: 338.58632pt x 507.92662pt.
 
-] [24
+LaTeX Warning: Float too large for page by 13.03944pt on input line 719.
 
-]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/depthMapStereo.jpg, id=801, 359.84438pt x 269.50688pt>
+File: images/depthMapStereo.jpg Graphic file (type jpg)
+<use images/depthMapStereo.jpg>
+Package pdftex.def Info: images/depthMapStereo.jpg  used on input line 730.
+(pdftex.def)             Requested size: 290.22107pt x 217.3782pt.
+<images/depthMapRealSense.jpg, id=802, 1284.8pt x 722.7pt>
+File: images/depthMapRealSense.jpg Graphic file (type jpg)
+<use images/depthMapRealSense.jpg>
+Package pdftex.def Info: images/depthMapRealSense.jpg  used on input line 732.
+(pdftex.def)             Requested size: 290.22107pt x 163.2511pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34
+
+] [35 <./images/RGB_HSV.jpg> <./images/HSL_HSV.jpg>] [36 <./images/depthMapSter
+eo.jpg> <./images/depthMapRealSense.jpg>]
 Chapitre 12.
-[25
+[37
 
 ]
 Chapitre 13.
-[26
-
-] [27
+[38
 
 ]
 Chapitre 14.
-[28
+[39
 
-]
+] [40
+
+] [41]
 Chapitre 15.
-[29
+[42
+
+] [43
 
 ]
 Chapitre 16.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 550.
-[30
+[44
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 550.
+Chapitre 17.
+[45
+
+]
+Chapitre 18.
+[46
+
+] [47
+
+]
+Chapitre 19.
+[48
+
+]
+Chapitre 20.
+[49
+
+] [50
+
+]
+Chapitre 21.
+[51
+
+]
+Chapitre 22.
+[52
+
+]
+Chapitre 23.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+[53
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
  (./REX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 550.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 550.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
 Package rerunfilecheck Info: File `REX.out' has not changed.
-(rerunfilecheck)             Checksum: AAFD08689A71E790D3CD47F13D60042B;4562.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 550.
+(rerunfilecheck)             Checksum: 87EBDAD77F89ACC589EA2DC731FABD28;7007.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
  ) 
 Here is how much of TeX's memory you used:
- 8744 strings out of 492982
- 130840 string characters out of 6134896
- 228401 words of memory out of 5000000
- 12041 multiletter control sequences out of 15000+600000
- 55473 words of font info for 42 fonts, out of 8000000 for 9000
+ 8969 strings out of 492982
+ 134969 string characters out of 6134896
+ 229401 words of memory out of 5000000
+ 12162 multiletter control sequences out of 15000+600000
+ 55774 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,43p,476b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-tt10.pfb>
-Output written on REX.pdf (31 pages, 1192626 bytes).
+ 42i,6n,43p,788b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmtt10.pfb>
+Output written on REX.pdf (54 pages, 1869838 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
- 121 named destinations out of 1000 (max. 500000)
- 656 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 971 PDF objects out of 1000 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 203 named destinations out of 1000 (max. 500000)
+ 1045 words of extra memory for PDF output out of 10000 (max. 10000000)
 
