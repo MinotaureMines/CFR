@@ -21,7 +21,7 @@
 
 \date{2019}
 
-\titlepic{\includegraphics[width=0.7\textwidth]{images/LogoMinotaure.png}}
+\titlepic{\includegraphics[width=0.4\textwidth]{images/LogoMinotaure.png}}
 
 \begin{document}
 
@@ -41,12 +41,45 @@ Minotaure ne pourra s'améliorer que si on accumule l'expérience au fur et à m
 Minotaure existe depuis 2004. C'est un P03 qui a créé l'association pour pouvoir continuer à participer à la coupe de france de robotique hors de la mécatronique (il a d'ailleurs créé sa propre entrerprise qui sponsorise des équipes de la coupe de france de robotique).
 
 \section{Rôle de Minotaure}
+Minotaure est une association officielle, au même titre que le BDE ou le TRIUM. Son objectif est de permettre aux étudiants de pratiquer la robotique aux Mines. En pratique, cela passe par gérer le budget du cours de Mécatro. En échange, l'association est financée par l'école pour participer à la coupe de France de Robotique.
+
 
 \section{Les différentes équipes au cours du temps}
 
+\subsection{2015-2016}
+\begin{description}
+\item[Président:] Matthieu Vignes
+\item[Trésorier:] 
+\item[Secrétaire générale:]
+\end{description}
+
+\subsection{2016-2017}
+\begin{description}
+\item[Président:] Louis Dattin
+\item[Trésorier:] Yoënn Burban
+\item[Secrétaire générale:] 
+\end{description}
+
 \subsection{2017-2018}
+\begin{description}
+\item[Président:] Maxence Leroy
+\item[Trésorier:] Ulysse Réglade
+\item[Secrétaire générale:] 
+\end{description}
 
 \subsection{2018-2019}
+\begin{description}
+\item[Président:] Thomas Gossard
+\item[Trésorier:] Léo Chabert
+\item[Secrétaire générale:] Louise Fayole
+\end{description}
+
+\subsection{2019-2020}
+\begin{description}
+\item[Président:] Corentin Lemoine
+\item[Trésorier:] Adrien Pauron
+\item[Secrétaire générale:]
+\end{description}
 
 \part{Composants}
 
@@ -54,23 +87,23 @@ Minotaure existe depuis 2004. C'est un P03 qui a créé l'association pour pouvo
 
 \section{Moteurs pas-à-pas}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/MoteurPasAPas.png}
+\includegraphics[width=0.4\textwidth]{images/MoteurPasAPas.png}
 \caption{Moteur pas-à-pas}
 \par\end{centering}
 \end{figure}
 
-Les moteurs pas-à-pas sont des moteurs électriques brushless à courant continu. Il en existe 3 types:
+Les moteurs pas-à-pas sont des moteurs synchrones électriques brushless à courant continu. Il en existe 3 types:
 \begin{description}
 \item[Moteurs pas-à-pas à aimants permanents] Un aimant permanent est solidaire de l'axe du moteur (rotor). Des bobines excitatrices sont placées sur la paroi du moteur (stator) et sont alimentées chronologiquement. Le rotor s'oriente suivant le champ magnétique créé par les bobines.
 \item[Moteurs pas-à-pas à reluctance variable] Il s'agit d'un moteur qui comporte un rotor à encoches se positionnant dans la direction de la plus faible réluctance. Ce rotor, en fer doux, comporte moins de dents qu'il n'y a de pôles au stator.
-\item[Moteurs pas-à-pas hybrides synchrones]Ils combinent les 2 technologies précédentes, et sont pluschers. Leur intérêt réside dans un meilleur couple, une vitesse plus élevée.
+\item[Moteurs pas-à-pas hybrides synchrones]Ils combinent les 2 technologies précédentes, et sont pluschers. Leur intérêt réside dans un meilleur couple, une vitesse plus élevée. Vidéos explicatives des moteurs pas-à-pas hybrides: \url{https://www.youtube.com/watch?v=eyqwLiowZiU}
 \end{description}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/DifferentsMPP.jpg}
+\includegraphics[width=0.4\textwidth]{images/DifferentsMPP.jpg}
 \caption{De gauche à droite: Aiment permanent, Reluctance Variable, Hybride}
 \par\end{centering}
 \end{figure}
@@ -82,9 +115,7 @@ Parmi les moteurs pas-à-pas à 2 phases, il existe 2 sous-groupes:
 \item[Bipolaire:]Les plus puissants. Leur connecteur est constitué de 4 fils. Chaque pôle du stator est constitué d'une seule bobine, et nécessite donc deux fils d'alimentation. Le sens du courant change tout le temps.
 \end{description}
 
-Les moteur les plus courants sont ceusx à aimants permanents et les hybrides.
-
-Vidéos explicatives des moteurs pas-à-pas hybrides: \url{https://www.youtube.com/watch?v=eyqwLiowZiU}
+Les moteur les plus courants sont ceux à aimants permanents et les hybrides.
 
 \textbf{Utilisation:} Imprimantes (3D ou simple), photocopieurs, robotique, pousse-seringue,...
 
@@ -116,11 +147,10 @@ Le couple du moteur est proportionnel au courant.
 
 Une bonne documentation fournira la vitesse et la puissance d'un moteur pas-à-pas. Cependant, il se peut que cela ne soit pas le cas. Dans ce genre de situation, il est possible de calculer des indicateurs sur la vitesse:
 
-\begin{figure}[h]
-\caption{Calcul de la vitesse d'un moteur pas-à-pas}
-
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/SpeedCalculator.jpeg}
+\includegraphics[width=0.4\textwidth]{images/SpeedCalculator.jpeg}
+\caption{Calcul de la vitesse d'un moteur pas-à-pas}
 \par\end{centering}
 \end{figure}
 
@@ -129,11 +159,11 @@ Une version en ligne permet de faire le calcul directement.
 
 \textbf{Fournisseurs:} Stepper Online, Gotronic,...
 
-\begin{figure}
+\begin{figure}[h!]
 \begin{centering}
 \caption{Gauche: Graphique du couple de maintien en fonction du courant consommé - Droite: Réponse en angle à un échelon}
-\includegraphics[width=0.7\textwidth]{images/CoupleMaintien.png}
-\includegraphics[width=0.7\textwidth]{images/reponse_indicielleMPP.png}
+\includegraphics[width=0.4\textwidth]{images/CoupleMaintien.png}
+\includegraphics[width=0.4\textwidth]{images/reponse_indicielleMPP.png}
 \par\end{centering}
 \end{figure}
 
@@ -153,9 +183,9 @@ Un driver en C a été écrit par Matthieu Vignes et est disponible sur le Git.
 
 Les moteurs à courant continu sont les plus courants. Ils ne sont cependant utilisés que dans des cas basiques.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/MoteurDC.jpeg}
+\includegraphics[width=0.4\textwidth]{images/MoteurDC.jpeg}
 \caption{Moteurs à courant continu}
 \par\end{centering}
 \end{figure}
@@ -172,61 +202,79 @@ Les moteurs à courant continu sont les plus courants. Ils ne sont cependant uti
 \item Aucun retour d'information et contrôle en position ou en vitesse impossible en boucle ouverte.
 \end{itemize}
 
+\textbf{Fournisseurs:} Conrad, GoTronic, Farnell, ...
+
 
 \subsection{Utilisation}
-Pour un moteur à courant continu, la vitesse de rotation est propotionnelle à la tensionà ses bornes. Cependant, étant donné qu'il est difficile de générer une tension variable, le moteur DC est le plus souvent alimenté à travers un hacher avec une tension fixe.
-\url{https://wiki.mchobby.be/index.php?title=Pont-H_L298N}
+Pour un moteur à courant continu, la vitesse de rotation est propotionnelle à la tension à ses bornes. Cependant, étant donné qu'il est difficile de générer une tension variable, le moteur DC est le plus souvent alimenté à travers un hacher avec une tension fixe.
 
-Le pont L298N est la meilleure méthode pour contrôler des moteurs à courant continu.
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{images/L298N.jpg}
+\caption{Pont H L298N}
+\par\end{centering}
+\end{figure}
+
+Le pont L298N est la meilleure méthode pour contrôler des moteurs à courant continu: \url{https://wiki.mchobby.be/index.php?title=Pont-H_L298N}
+
 
 Il est aussi possible de de choisir la tension à fournir pour contrôler le moteur avec des transistors:
+
 \url{https://openclassrooms.com/fr/courses/2778161-programmez-vos-premiers-montages-avec-arduino/3285333-le-moteur-a-courant-continu-partie-1-transistors-et-sorties-pwm}
 
+Cependant, le moteur ne pourra tourner que dans un sens avec l'utilisation de transistors.
+
 \section{Moteurs brushless}
-Les moteurs brushless comme leur nom l'indique sont des moteurs à courant continu sans balais. De ce fait, ils s'usent moints rapidement que les moteurs. Ils sont notament utilisés en aéromodélisme pour leur endurance et la puissance qu'ils peuvent délivrer. A la place des balais, 3 cables d'alimentations sont nécessaires pour les phases des différentes bobines (alimentation triphasée).
+Les moteurs brushless comme leur nom l'indique sont des moteurs à courant continu sans balais. De ce fait, ils s'usent moins rapidement que les moteurs. Ils sont  utilisés en aéromodélisme pour leur endurance et la puissance qu'ils peuvent délivrer. A la place des balais, 3 câbles d'alimentations sont nécessaires pour les phases des différentes bobines (alimentation triphasée).
 
-Pour inverser le sens de rotation d'un moteur brushless, il suffit d'inverser la connection de 2 de ses 3 cables.
+Pour inverser le sens de rotation d'un moteur brushless, il suffit d'inverser la connexion de 2 de ses 3 .
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/MoteurBrushless.jpg}
+\includegraphics[width=0.4\textwidth]{images/MoteurBrushless.jpg}
 \caption{Moteur brushless}
 \par\end{centering}
 \end{figure}
 
-Avantages:
+\textbf{Avantages:}
 \begin{itemize}
 \item Vitesse asservie
 \item Fabriqué pour tourné à de grandes vitesses
 \end{itemize}
 
-Inconvénients:
+\textbf{Inconvénients:}
 \begin{itemize}
 \item Nécessité d'un ESC
 \end{itemize}
 
-\subsection{Utilisation}
-Pour utiliser un moteur brushless, il est nécessaire d'utiliser un  ESC (Electronic Speed Controller) 
+\textbf{Fournisseurs:} HobbyKing ou autres sites de modélismes
 
-\begin{figure}[h]
+\subsection{Utilisation}
+Pour utiliser un moteur brushless, il est nécessaire d'utiliser un  ESC (Electronic Speed Controller). Un ESC va convertir une tension continu en une alimentation alternative synchrone pour le moteur à travers 3 fils. Ces 3 fils sont interchangeables mais cela changera le sens de rotation du moteur. La tension d'entrée de l'ESC n'est pas unique. Il faut juste qu'elle soit dans l'intervalle demandée. La tension n'aura pas d'influence sur la vitesse de rotation du moteur contrairement au moteur à courant continu. La vitesse de rotation est commandée par un signal PWM en entrée de l'ESC.
+
+Certaines ESC sont équipées de BEC (Battery Eliminator Circuit), c'est à dire qu'il adapte la tension de sortie de la batterie afin de pouvoir fournir une tension utilisable par d'autres éléments électroniques comme un récepteur ou des servomoteurs. En général, un BEC sortira 5V. Voir la section sur les BEC pour plus d'information.
+
+Ce site web explique plus en détail le fonctionnement des moteurs brushless et des ESC:\url{ https://howtomechatronics.com/how-it-works/how-brushless-motor-and-esc-work/}
+
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/ESC.jpg}
+\includegraphics[width=0.4\textwidth]{images/ESC.jpg}
 \caption{ESC}
 \par\end{centering}
 \end{figure}
 
 \section{Servomoteurs}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/servomoteur.jpg}
+\includegraphics[width=0.4\textwidth]{images/servomoteur.jpg}
 \caption{Servomoteurs}
 \par\end{centering}
 \end{figure}
 
 C'est un moteur à courant continu asservi. Il est souvent utiliser pour effectuer de petits mouvements. On le commande en angle et il maintient ensuite sa position peut importe l'effort exercé dessus (bien sûr il casse si on force trop).
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/schemaServo.jpg}
 \caption{Schéma d'un servomoteur}
@@ -247,11 +295,18 @@ Il est composé d'un moteur à courant continu, d'une réducteur, d'un potentiom
 \item Limité à 160-180 \degre de rotation (Il existe cependant des servos à rotation continu)
 \end{itemize}
 
+\textbf{Fournisseurs:} Hobbyking (et autres sites de modélisme), Gotronic, Conrad,...
+
 \subsection{Utilisation}
 
 \subsubsection{Cablage}
 
-Image des différents cables
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/colorCodeCableServo.png}
+\caption{Cablage d'un servomoteur}
+\par\end{centering}
+\end{figure}
 
 Il faut 3 cables pour utiliser un servomoteur:
 \begin{itemize}
@@ -262,7 +317,7 @@ Il faut 3 cables pour utiliser un servomoteur:
 
 \subsubsection{Signaux PWM}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/PWMservo.jpeg}
 \caption{Signal PWM pour contrôler un servomoteur}
@@ -272,48 +327,114 @@ Il faut 3 cables pour utiliser un servomoteur:
 La durée d'un signal PWM (Pulse Width Modulation) est proportionnelle à la commande. En général, la fréquence est de 50 Hz pour les servomoteurs mais elle peut être différente pour d'autres applications.
 
 \section{Les Dynamixels}
-Ce sont les actionneurs le plus souvent utilisé en robotique. Ils sont produits exclusivement par la société Robotis.
+Ce sont les actionneurs le plus souvent utilisés en robotique. Ils sont produits exclusivement par la société Robotis.
 
-Avantages:
+En général, ce sont les AX-12 qui sont utilisés. Attention, il faut distinguer 2 modèles d'AX-12: AX-12W qui ont une plus grande vitesse de rotation mais un plus faible couple et les AX-12A qui sont ont un couple plus grand.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/dynamixel.jpg}
+\caption{Dynamixel avec la clé de calibration}
+\par\end{centering}
+\end{figure}
+
+\textbf{Avantages:}
 \begin{itemize}
 \item Retour de beaucoup d'informations: courant consommé, couple appliqué, vitesse et position,...
 \item Configurable
+\item Possibilité de les commander avec un seul bus en les connectant en série
 \end{itemize}
 
-Inconvénients:
+\textbf{Inconvénients:}
 \begin{itemize}
 \item Très difficile d'utilisation. Il faut utiliser un connecteur spécial et coûteux pour les débuguer.
 \item Plus fragiles que les servomoteurs.
+\item Prix (60 euros environ l'unité)
 \end{itemize} 
 
+\textbf{Fournisseur:} Robotis et autres revendeurs
+
 \chapter{Système pneumatique}
+Nous avons vu jusqu'à présent que des actionneurs électriques. Cependant, il est aussi possible d'utiliser des actionneurs pneumatiques.
+
+\begin{figure}
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{images/compresseur.jpg}
+\caption{Compresseur}
+\par\end{centering}
+\end{figure}
+
+\textbf{Avantages:}
+\begin{itemize}
+\item Rapide
+\item L'actionneur peut être bloqué sans être endommagé
+\end{itemize}
+
+\textbf{Inconvénients:}
+\begin{itemize}
+\item Nécessité d'une source de pression: compresseur, pompe, cartouche de gaz,...
+\item Tout ou rien
+\item Risque de fuite ou de bouchage
+\end{itemize}
 
 \section{Pompe}
+La pompe génère une dépression qui permettra d'aspirer des objets. En général, il s'agit un moteur à courant continu avec un système de soupapes pour générer le vide.
 
-\subsection{Pneumatique}
+\begin{figure}
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{images/pompeAvide.jpeg}
+\caption{Compresseur}
+\par\end{centering}
+\end{figure}
 
-\subsection{Hydrolique}
+Les pompes trouvées en ligne sont de qualité très inégales et les spécifications décrites peuvent être fausses. Il ne faut pas hésiter à acheter différents modèles en plusieurs exemplaires. 
 
-On peut ne pas pouvoir inverser le sens
+\textbf{Fournisseur:}
+Les modèles déjà utilisés ont été des pompes à air de 12V trouvées sur Amazon par exemple. Roboshop vend un unique modèle qui est n'est pas mal. Cependant, il est relativement massif et surtout bruyant par rapport aux mini-pompes de 12V d'Amazon, qui font aussi bien le travail.
+
+\subsection{Utilisation}
+IL suffit de l'alimenter comme un moteur à courant continu. On peut très bien simplement la brancher à une alimentation 12V ou bien utiliser un pont en H si on souhaite contrôler la quantité d'air aspirer. 
+
+Quand la pompe n'est plus alimenter, elle empêchera légèrement l'air de s'échapper. Ainsi, il ne suffit pas d'arrêter d'alimenter la pompe pour qu'un objet tombe de la ventouse. Pour remédier à ce problème, il y a plusieurs solutions. On peut soit faire un léger trou dans la ventouse ou le tube. La pompe pourra toujours aspirer mais l'objet sera lâché plus rapidement. Sinon, il est possible d'ouvrir le circuit pneumatique avec des valves.
 
 \section{Ventouse}
-Les ventouses sont très utilses pour se saisir d'objets ayant des surfaces relativement plane et lisse.
+Les ventouses sont très utilisées pour se saisir d'objets ayant des surfaces relativement plane et lisse.
 
-Ventouse avec et sans souflet
+\begin{figure}
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{images/ventouseSoufflet.jpg}
+\caption{Compresseur}
+\par\end{centering}
+\end{figure}
 
-Avantage:
+On distinguera surtout 2 types de ventouses: avec et sans soufflet. Le soufflet permet à la ventouse de s'adapter à l'inclinaison de la surface plane de l'objet au moment de le saisir
 
-Inconveignents:
+\textbf{Avantage:}
+\begin{itemize}
+\item Rapide
+\end{itemize}
 
-Fournisseur: RS
+\textbf{Inconvénients:}
+\begin{itemize}
+\item Ne fonctionne que sur des surfaces planes
+\end{itemize}
+
+\textbf{Fournisseur:} RS
 
 \section{Accessoires et autres}
+
+\subsection{Tubes}
+
+\textbf{Fournisseur:}Amazon, RS,...
+
+\subsection{Valves}
+
 
 \chapter{Communication}
 
 \section{Radio}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/recepteurRadio.jpg}
 \caption{Récepteur radio}
@@ -322,7 +443,7 @@ Fournisseur: RS
 
 En modélisme, des radiocommandes sont utilisées pour commander avion, bateau ou voiture. De nos jours, la fréquence utilisée en majorité est la 2.4GHz car plusieurs personnes peuvent utiliser cette fréquence sans risquer d'interférences mais avant, des fréquences de l'ordre du MHz étaient utilisées. Ces fréquences dépendent du pays mais en France, on pouvait utiliser 42Mhz et 58Mhz. Ces fréquences ont l'avantage d'avoir une plus grande portée.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/taranis.jpg}
 \caption{Radiocommande}
@@ -331,7 +452,7 @@ En modélisme, des radiocommandes sont utilisées pour commander avion, bateau o
 
 \section{Bluetooth}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/dongleBluetooth.jpeg}
 \caption{Adaptateur bluetooth}
@@ -344,7 +465,7 @@ Le Bluetooth utilise 2.4GHz comme le Wifi mais il n'est pas utilisé pour les m�
 
 \section{Module Xbee}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/XBee.jpg}
 \caption{Module XBee}
@@ -363,7 +484,7 @@ Différentes architectures réseaux ont été dévelopées pour les modules Xbee
 
 \section{Arduino}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/cartesArduino.jpg}
 \caption{Différentes cartes Arduino}
@@ -442,7 +563,7 @@ Il existe différents modes de positionnement par GNSS aujourd'hui dont certains
 
 \section{LIDAR}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/NuageDePoints.png}
 \caption{LIDAR de SLAMTEC}
@@ -451,7 +572,9 @@ Il existe différents modes de positionnement par GNSS aujourd'hui dont certains
 
 Acronyme pour Light Detection And Ranging, ce capteur permet de générer un nuage de point de l'environnement qui l'entoure. Le LIDAR fait cela grâce à un laser qui mesure la distance avec un obstacle. Contrairement à un capteur infrarouge actif, le laser du LIDAR est très directif et permet des mesures plus précises. En connaissant la configuration du LIDAR, on connaît la direction du laser et donc la direction de l'obstacle. Les LIDARs que nous utilisons sont font juste des mesures dans un plan mais il existe des LIDARs qui fournissent des nuages de points en 3D.
 
-\begin{figure}[h]
+Un nouveau type de LIDAR est un train de faire son apparition: les Solid State Lidar. Il génère toujours un nuage de points mais il ne fonctionne pas sur le même principe, il n'y pas notamment plus de pièces mobiles. 
+
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/RPLidar.jpg}
 \par\end{centering}
@@ -476,7 +599,7 @@ Acronyme pour Light Detection And Ranging, ce capteur permet de générer un nua
 
 \section{Infrarouge}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/capteurInfrarougeActif.jpg}
 \includegraphics[width=0.5\textwidth]{images/capteurInfrarougePassif.jpg}
@@ -505,10 +628,22 @@ La phase de calibration peut consister définissant le taux moyen d'infrarouge d
 \section{Capteurs de fin de course}
 Comme son nom l'indique, le capteur de fin de course permet d'observer les contacts. Ils sont aussi appelés interrupteurs ou détecteurs de position. Ce sont en soit des interrupteurs poussoirs avec des 
 
+\section{Capteur TOF}
+Les capteurs TOF (Time Of Flight) regroupent différents types de capteurs. Ils ont tous en commun la mesure de l'aller-retour d'un signal pour mesurer une distance. C'est en soi le même principe que pour les capteurs ultrasons ou infrarouges. Cependant, on qualifie en particulier 2 capteurs de cette manière: des caméras qui mesurent la profondeur sur le même principe que la Kinect 2 et des capteurs de distance utilisant un laser, à distinguer des LIDAR.
+
+ST a développé un capteur sur ce principe a prix très abordable. La technologie s'appelle FlightSense. De part la précision, la taille et la robustesse de ce capteur, il rend les capteurs ultrasons et à infrarouges obsolètes.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/tofSensorST.jpg}
+\includegraphics[width=0.5\textwidth]{images/principeFlightSense.jpg}
+\caption{Fonctionnement du capteur FlightSense de ST}
+\par\end{centering}
+\end{figure}
 
 \section{Codeurs incrémentaux}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/photoCodeurIncremental.JPG}
 \caption{Codeur Incrémental}
@@ -519,7 +654,7 @@ Les capteurs incrémentaux mesurent une rotation.
 
 Il existe des codeurs incrémentaux absolus et relatifs. Cependant, les codeurs absolus sont très chers. En effet, chaque position doit avoir sa m
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/codeurIncremental.jpg}
 \includegraphics[width=0.5\textwidth]{images/schemaCodeurIncremental.jpeg}
@@ -577,6 +712,13 @@ Les batteries Nimh sont moins fragiles que les batteries Lipo. Cependant, elles 
 \subsection{Chargeur}
 Les différents types de batterie ne se chargent pas de la même façon. Il y a un mode pour chaque sur le chargeur. Il faut aussi surveiller le taux de charge.
 
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/chargeurBatterie.jpg}
+\caption{Chargeur de batterie}
+\par\end{centering}
+\end{figure}
+
 Pour les Lipo, il faut aussi brancher la prise d'équilibrage. Ce n'est pas obligatoire mais cela permet de prolonger la durée de vie de la batterie. En effet, au fur et à mesure des différents cycles de charge/décharge, les éléments de la Lipo ne vont pas avoir tous la même tension. La prise d'équilibrage permet d'empécher cela.
 
 
@@ -586,17 +728,15 @@ Pour les Lipo, il faut aussi brancher la prise d'équilibrage. Ce n'est pas obli
 Le BEC (Battery Eliminator Circuit) permet de délivrer une tension. Ce circuit appartient à l'électronique de puissance.
 
 \subsection{Régulateurs de tension linéaire}
-Les régulateurs permettent comme les BEC de fournir un
+Les régulateurs permettent comme les BEC de fournir une tension inférieur à la tension d'alimentation. Cependant, contrairement à un BEC, toute la puissance n'est pas convertie. Une grande partie est perdue par effet joule. C'est pourquoi il ne faut l'utiliser que quand la puissance à dissiper est faible ($P_{dissipée} = (V_{entrée} - V_{sortie})*I$).
 
-si pas de source de frais, dangereux
-
-Inconvénients:
+\textbf{Inconvénients:}
 \begin{itemize}
 \item Pas efficace, la tension a dissipé l'est sous la forme de chaleur
 \item Cesse de d'alimenter en tension si la température dépasse un certain seuil
 \end{itemize}
 
-Avantages:
+\textbf{Avantages:}
 \begin{itemize}
 \item Simple à mettre en oeuvre
 \item Peu cher (de l'ordre de la dizaine de centimes)
@@ -604,7 +744,6 @@ Avantages:
 
 \subsubsection{Utilisation}
 
-Montage
 
 \subsection{Convertisseur Buck}
 C'est le type de circuit qui est utilisé dans 
@@ -656,15 +795,15 @@ Raspbian est un système d'exploitation basé sur Linux. Il est possible d'insta
 
 \subsection{Les commandes utiles}
 \begin{description}
-\item[cd:]
-\item[ls:]
-\item[mkdir:]
-\item[nano:]
-\item[vim:]
-\item[chmod:]
-\item[apt install:]
-\item[apt upgrade:]
-\item[apt update:]
+\item[cd:] Changer de répertoire. Taper juste "cd" permet de répertoire /home/user. Pour accéder à la racine, il faut taper "cd /".
+\item[ls:] Liste tous les fichiers dans un répertoire
+\item[mkdir:] Crée un répertoire
+\item[nano:] Affiche le contenue texte d'un fichier et permet de le modifier.
+\item[vim:] Même chose que nano mais en plus puissant et moins intuitif.
+\item[chmod:] Change les permissions d'un fichier. Certains fichiers ne pourront pas être modifiés ou lancés car l'utilisateur n'aura pas le droit.
+\item[apt install:] Installe une librairie.
+\item[apt upgrade:] Télécharge les versions actuelles des librairies.
+\item[apt update:] Met-à-jour les librairies.
 \end{description}
 
 Pour lancer un programme binaire, il faut "./programme"
@@ -688,9 +827,12 @@ sudo umount /media/usb
 Quel langage utilisé?
 
 \section{Python}
-Python, le langage que tout le monde maîtrise normalement après la prépa. Il est très facile de faire du prototypage avec. C'est d'ailleurs avec ce language qu'il faudra tester de nouvelles choses. Cependant, en tant que language interprété il est beaucoup plus lent que les languages compilés (C/C++).
+Python, le langage que tout le monde maîtrise normalement après la prépa. Il est très facile de faire du prototypage avec. C'est d'ailleurs avec ce langage qu'il faudra tester de nouvelles choses. Cependant, en tant que langage interprété il est beaucoup plus lent que les langages compilés (C/C++).
+
+En général, c'est le langage utilisé lors de la phase de prototypage. Une fois le principe vérifié, le code embarqué est plutôt en C ou C++.
 
 \section{C/C++}
+En tant que langages compilés, ils sont beaucoup plus rapides que Python. Cependant, ils sont aussi beaucoup plus complexe d'utilisation.
 
 \subsection{Cross-compilation}
 Il est possible de compiler les programmes en C et C++ sur la raspberry pi mais cela prends beaucoup de temps en raison du manque de puissance de calcul (de l'ordre des minutes). Cependant, une fois compiler une première fois, le compilateur ne devra recompiler que les fichiers modifiés. La compilation prendra alors moins de temps. 
@@ -710,10 +852,10 @@ OpenCV est la bibliothèque par excellence pour tout ce qui concerne le traiteme
 \section{Systèmes de couleur}
 De part la manière dont nous voyons le monde, nous utilisons en général le système RGB pour décrire les couleurs. Cependant, ce n'est pas toujours le système de couleur le plus efficace pour étudier des images. En effet, certains éléments ressortiront plus dans un certain système de couleur. Par exemple, les feux de forêt sont plus distinct avec la luminescence du système LUV qu'avec le rouge de RGB.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
-\includegraphics[width=0.7\textwidth]{images/RGB_HSV.jpg}
-\includegraphics[width=0.7\textwidth]{images/HSL_HSV.jpg}
+\includegraphics[width=0.4\textwidth]{images/RGB_HSV.jpg}
+\includegraphics[width=0.4\textwidth]{images/HSL_HSV.jpg}
 \caption{Systèmes de couleur}
 \par\end{centering}
 \end{figure}
@@ -725,7 +867,7 @@ De part la manière dont nous voyons le monde, nous utilisons en général le sy
 \section{Vision stéréoscopique}
 A partir de deux caméras dont on connaît la position relative, il est possible d'obtenir la profondeur de l'image. Cependant, cette méthode pour obtenir la profondeur est très sensible à différents paramètres tels que la calibration des caméras et la distance entre les caméras. Par ailleurs, la carte de profondeur générée est très approximative. Si on veut vraiment mesurer la profondeur d'une image, on utilisera plutôt une caméra infrarouge telle que la Kinect ou la Intel Realsense D435.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.6\textwidth]{images/depthMapStereo.jpg}
 \caption{Profondeur d'image avec des stéréos caméras}
@@ -754,24 +896,116 @@ Cependant, pour avoir de la pratique, investir dans la plateform \href{https://w
 \chapter{Utilisation d'un Git}
 Un Git est très pratique pour coder. Il permet travailler à plusieurs sur un même projet et surtout il permet de gérer l'évolution du code.
 
-Il existe plusieurs services qui propose hébergements en ligne: Github, Gitlab,...  
+Il existe plusieurs services qui propose hébergements en ligne: Github, Gitlab,... Minotaure utilise GitHub.
+
+\section{Documenter}
+Il existe deux manières de documenter le code sur GitHub. On peut soit écrire des fichiers README.md ou rédiger des pages Wiki. L'utilisation de l'un ou de l'autre va seulement changer ou trouver l'information ainsi que son organisation. En effet, il est seulement possible d'avoir un fichier README.md par répertoire mais on avoir autant de pages wiki organisées comme on veut.
+
+\subsection{Utilisation de fichier README.md}
+Il est possible dans chaque répertoire de créer un fichier README.md. Il s'agit d'un fichier texte mis-en-forme (Markdown Documentation). Ainsi, quand le répertoire sera ouvert sur le site Github, le texte mis-en-forme sera affiché automatique sous les fichiers du répertoire.
+
+
+\subsection{Utilisation du Wiki}
+Chaque github offre la possibilité de créer son propre wiki. Il est possible d'agencer les pages wiki comme on le souhaite. La hiérarchie est la même que pour des fichier normaux: "repertoire1/repertoire2/pageWiki3" par exemple (c'est ce qu'il faut écrire comme nom de page lors de sa création).
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{images/wikiGit.png}
+\caption{Wiki du Git}
+\par\end{centering}
+\end{figure}
+
+\subsection{Mise en forme du texte}
+Il est possible de mettre en forme le texte dans le wiki ou le README. Pour cela, le markup language est utilisé. Il est très simple à utiliser et rend les choses lisibles.
+
+\begin{description}
+\item[Titres:] Il faut mettre \# avant le titre (Attention de ne pas oublier un espace entre le \# et le titre). Le nombre de \# indique l'importance du titre: \# pour les titres les plus importants, \#\#\#\#\#\# pour les moins importants.
+\item[Liste:] Les listes sont indiquées par des *, + ou - au début de la ligne pour chaque élément.
+\item[Italique:] *texte en italique* ou \_texte en italique\_
+\item[Gras:] **texte en gras** ou \_\_texte en gras\_\_
+\item[Barré:]~~texte barré~~
+\item[Liens:] [Nom du lien](lien url)
+\item[Images:] ![nom image](path vers image ou url)
+\item[Code:] ```languageDeProgrammation   ```
+\end{description}
+
 
 \section{Méthodologie}
 
+\subsection{Bases}
 \begin{enumerate}
 \item Avant de commencer, il faut récupérer la dernière version disponible du code.
-\item Une fois satisfait avec les modifications réalisées sur un fichier, on enregistre la nouvelle version (vérifier que le code marche). Il faut mettre un commentaire au commit afin de garder une trace des modifiations réalisées.
-\item Quand on a finit de travailler sur le code, on sauvegarde les modifications sur le serveur.
+\item Une fois satisfait avec les modifications réalisées sur un fichier et avoir vérifier que cela fonctionne, on commit (enregistre) la nouvelle version (on n'enregistre que très rarement un code qui ne fonctionne pas). Il faut mettre un commentaire au commit afin de garder une trace des modifiations réalisées.
+\item Quand on a finit de travailler sur le code, on push (sauvegarde)  les modifications sur le serveur.
 \end{enumerate}
 
+Il est très important de qu'un commit corresponde à une seule modification afin de garder une trace des modifications. Cela permettra un débugage plus rapide par la suite. Commiter plusieurs modifications d'un seul coup est à proscrire!
+
+\subsection{Branches}
+Parfois, on veut tester plusieurs idées pour améliorer un code. Pour éviter de tout mélanger et d'avoir plusieurs fichiers qui font presque la même chose, on utilise des branches. Il s'agit d'une version alternative de tout le code qu'il est possible de développer en parallèle de la branche principale. Une fois satisfait des améliorations réalisées, on peut merger (fusionner)la branche au master (branche principale). Le code des deux branches est alors fusionner.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.4\textwidth]{images/gitBranches.png}
+\caption{Principes des branches sur Git}
+\par\end{centering}
+\end{figure}
+
+\section{Commandes}
+Voici une liste non-exhaustive des commandes git de base. Chaque commande possède des options d’utilisation qui ne sont pas décrites ici. Pour plus d'information, chercher sur internet.
 
 
+\begin{description}
+\item[git config:] Définit les paramètres utilisateurs comme le nom d'utilisateur et l'adresse mail.
+
+git config –global user.name “[name]”
+
+git config –global user.email “[email address]”
+
+\item[git init:]Initalise un répertoire git.
+
+git init [repository name]
+
+\item[git clone:]Clone un répertoire sur internet à partir du lien url de celui-ci.
+
+git clone [url]
+
+\item[git add:]Enregistre les modifications des fichiers en vu d'un prochain commit.
+
+git add [file]
+
+\item[git commit:] Commit les modifications enregistrées avec git add.
+
+git commit -m "[Commentaires]"
+
+git commit -a (Commit tous les fichiers modifiés et déjà suivi par git, pas besoin d'utiliser git add)
+
+\item[git reset:]
+
+git reset [file] (Enlève le fichier des fichiers à commit)
+
+\item[git staus:] Liste tout les fichiers modifiés qui n'ont pas été enregistrés pour le commit
+
+\item[git rm:] Efface un fichier
+
+git rm [file]
+
+\item[git log:] Montre l'historique des commits dans la branche locale.
+
+\item[git push:] Sauvegarde les commits en ligne.
+
+git push origin master (Si tu travailles sur la branche principale)
+
+\item[git pull:] Met-à-jour les fichiers locaux par rapport à leur version en ligne.
+
+\end{description}
 
 \chapter{Protocole de communication}
 
 Pour faire communiquer différents appareils électroniques entre eux, il existe plusieurs méthodes.
 
 \section{Série}
+Il existe 2 protocoles de communications en série qu'il est facile de confondre. Ils fonctionnent en effet sur le même principe mais pas avec les mêmes tension de référence. C'est pourquoi il est important de bien identifier quel est le protocole série utilisé.
 
 \subsection{UART}
 
@@ -788,31 +1022,67 @@ Ce protocole de communication a été développé par Bosch pour réduire la qua
 
 Le livre "Probabilistic Robotics" est excellent pour découvrir les différents problèmes de robotique. Il sert de très bonne introduction aux algorithmes de fusion de données pour estimer la position, au contrôle de robots et au SLAM.
 
-\chapter{Estimation de l'attitude}
+\part{Outils de la menuiserie}
 
-\section{Différentes manières de représenter l'attitude}
+\chapter{Les machines}
+La menuiserie possède pas mal d'équipement à la disposition des élèves. Il n'y a pas trop de restrictions sur leur utilisation à condition de tout ranger après à moins de vouloir faire face à Jacky, le responsable de la menuiserie. Il ne faut d'ailleurs pas hésiter à lui demander conseil si besoin est, il est toujours prêt à aider les étudiants dans leurs projets.
 
-\subsection{Angles d'Euler}
+Le responsable des outils avancés de la menuiserie est Henri Proudhon. C'est celui qu'il faut contacter si jamais vous souhaitez apprendre à utiliser l'une des machines.
 
-\subsection{Vecteur rotation}
+\section{L'imprimante 3D}
+L'école possède pour l'instant 3 imprimantes 3D. Vous n'utiliserez très probablement jamais la plus ancienne. Les 2 que seront utiles sont:
+\begin{description}
+\item[l'Ultimaker 2+:]C'est celle qui peut imprimer le plus grand volume: 223 x 223 x 305 mm
+\item[l'Ultimaker 3:]La version la plus récente. Elle permet d'imprimer un volume plus faible que l'Ultimaker 2+ (215 x 215 x 200 mm) mais elle possède 2 têtes d'impressions ce qui lui permet de faire des impressions avec 2 matériaux différents.
+\end{description}
 
-\subsection{Quaternion}
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.6]{images/ultimaker.png}
+		\caption{Les imprimantes 3D Ultimaker}
+	\end{center}
+\end{figure}
 
-\section{Filtre complémentaire}
+\subsection{Le logiciel: Cura}
+Cura est le logiciel qui permet de créer le fichier qui sera utilisé par les Ultimakers. On peut définir les paramètres d'impressions et le positionnement des objets à imprimer dans l'imprimante 3D. 
 
-\section{Filtre de Mahony}
+Attention, l'Ultimaker 3 ne fonctionne pas pour l'instant avec la version 3.3.1 de Cura. Il faut utiliser la version 3.2.1.
 
-\section{Filtre de Madgwick}
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{images/cura.jpg}
+		\caption{Cura}
+	\end{center}
+\end{figure}
 
-\section{Filtre de Kalman}
+\subsection{Utilisation}
+Avant de lancer l'impression, il faut passer un coup de spray dur le plateau d'impression. Cela évite d'avoir des problèmes quand on décollera l'impression à la fin.
 
-\part{Machines de la menuiserie}
+Le menu est très intuitif et bien expliqué. Le changement des bobines est aussi très simple et bien expliqué sur le site web d'Ultimaker.
 
-\chapter{Découpeuse Laser}
+\section{La découpeuse laser}
+La découpeuse laser est plus complexe à utiliser que l'imprimante 3D. Il vaut mieux que Henri Proudhon vous montre précisément comment l'utiliser. Il faut en effet choisir des paramètres spécifiques à chaque matériaux. Des paramètres sont déjà définis dans la machine pour certains matériaux mais il faudra très certainement mettre cela à jour avec de nouveaux matières premières. Ensuite, il faut calibrer la distance du laser au matériau à découper afin que cela corresponde à la distance focale. C'est d'ailleurs pour cela qu'il est impossible de couper des matériaux d'une trop grande épaisseur (21mm ne passent pas je crois). On peut contourner ce problème en découpant plusieurs fois le même motif et en les empilant par contre.
 
-\chapter{Tour}
+La découpeuse laser accepte seulement des matériaux de 40 x 80 cm (à revérifier). Cependant, la découpeuse laser s'ouvre sur un côté. Cela permet d'insérer dedans de pièces qui font plus de 40 cm de largeur.
 
-\chapter{Imprimante 3D}
+Certaines matières plastiques ne peuvent être découpées par la découpeuse laser car ils produisent des fumées toxiques lorsqu'ils brûlent. Il faut alors utiliser une fraiseuse CNC (qui est en réparation).
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{images/decoupeuse_laser.jpg}
+		\caption{Découpeuse laser}
+	\end{center}
+\end{figure}
+
+\subsection{Le logiciel: Inkscape}
+Inkscape est un logiciel de traitement graphique. C'est celui qui produit les fichiers acceptés par la découpeuse laser. Si vous souhaitez découper quelque chose, il faut que votre dessin soit importer sous Inkscape, mis à l'échelle (attention aux unités utilisés) puis il faut que le trait soit en rouge afin qu'il soit reconnu par la découpeuse laser.
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{images/inkscape.jpg}
+		\caption{Inkscape}
+	\end{center}
+\end{figure}
 
 \part{Conception}
 
@@ -827,9 +1097,11 @@ La règle d'or doit toujours être la SIMPLICITÉ. Il faut un système robuste e
 \chapter{Pendant l'année}
 \begin{itemize}
 \item Dès que du matériel est nécessaire, le commander immédiatement afin de l’avoir pour la semaine d’après. C’est souvent le matériel qui empêche de progresser sur les robots et de faire des test.
+\item Garder l'un des robots de la compétition précédente afin de pouvoir avoir dès le début une base roulante. Cela permettra de commencer directement à coder et à faire des tests pour des algo de pathfinding ou d'évitement d'obstacles.
 \end{itemize}
 \chapter{Le départ}
 \begin{itemize}
+\item Une personne doit être responsable de l'intégralité du chargement des voitures afin d'être certain de ne rien oublier. Si plusieurs personnes s'en occupe et que la communication est mauvaise, il y aura des oublis (oublier les vis de la table de jeu par exemple)
 \item Faire une liste des outils et matières premières une semaine à l’avance afin de ne rien oublier. Il faudra cette liste à Mazouz.
 \item Trouver un moyen pour déplacer les 2 robots et l’équipement nécessaire pour les préparer avec une seule personne. En effet, seulement 2 personnes peuvent aller jusqu’à la table de match et il peut être dur de tout porter à 2. Cela peut être un petit chariot comme le font d’autres équipes.
 \end{itemize}
