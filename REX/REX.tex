@@ -249,6 +249,17 @@ Pour inverser le sens de rotation d'un moteur brushless, il suffit d'inverser la
 
 \textbf{Fournisseurs:} HobbyKing ou autres sites de modélismes
 
+\subsection{Critères de sélection}
+\begin{description}
+\item[KV:]C'est le rapport tours par minute(RPM)/tension(V). 
+\item[Taille:] Un moteur brushless sera décrit par 4 chiffres, 2208 par exemple. C'est sa taille. Les 2 premiers chiffres sont le diamètre et les 2 suivant la hauteur du moteur.
+\item[Courant consommé:] L'ESC sera à choisir en conséquence
+\item[Batterie:]La notice indique le type de batterie pouvant être utilisé(2S, 3S, ...). Cela revient à indiquer les tensions que le moteur supporte.
+\item[Type:]Il existe 2 grands types de moteurs brushless: outrunner et inrunner. Cela indique si le rotor est à l'extérieur ou à l'intérieur.
+\item[Le nombre de pôles:]
+\end{description}
+
+
 \subsection{Utilisation}
 Pour utiliser un moteur brushless, il est nécessaire d'utiliser un  ESC (Electronic Speed Controller). Un ESC va convertir une tension continu en une alimentation alternative synchrone pour le moteur à travers 3 fils. Ces 3 fils sont interchangeables mais cela changera le sens de rotation du moteur. La tension d'entrée de l'ESC n'est pas unique. Il faut juste qu'elle soit dans l'intervalle demandée. La tension n'aura pas d'influence sur la vitesse de rotation du moteur contrairement au moteur à courant continu. La vitesse de rotation est commandée par un signal PWM en entrée de l'ESC.
 
@@ -274,6 +285,8 @@ Ce site web explique plus en détail le fonctionnement des moteurs brushless et 
 
 C'est un moteur à courant continu asservi. Il est souvent utiliser pour effectuer de petits mouvements. On le commande en angle et il maintient ensuite sa position peut importe l'effort exercé dessus (bien sûr il casse si on force trop).
 
+
+
 \begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{images/schemaServo.jpg}
@@ -297,6 +310,15 @@ Il est composé d'un moteur à courant continu, d'une réducteur, d'un potentiom
 
 \textbf{Fournisseurs:} Hobbyking (et autres sites de modélisme), Gotronic, Conrad,...
 
+\subsection{Critères de sélections}
+\begin{description}
+\item[Le couple:]Celui-ci peut être exprimé dans pleins d'unités différentes (N.m, kg.cm, oz.inch, ...). Une fois dans le système d'unité voulu, il suffit de multiplier le couple par le bras de levier (distance entre le centre de rotation et le point d'application de la force).
+\item[Taille:]La taille est normalement proportionnelle au couple mais en y mettant le prix, on peut avoir des servos plus petits mais plus puissants.
+\item[Tension d'alimentation:]Généralement, les servomoteurs sont alimentés par du 5V. Cependant, pour des plus grands modèles la tension peut passer à 7.4V ou 12V.
+\item[Courant:]Le courant consommé par le servo est proportionnel au couple demandé comme pour un moteur à courant continu normal. Il faut prévoir l'alimentation en conséquence. Si jamais il y a un pic de consommation, une chute de tension peut survenir dans tout le circuit ce qui peut provoquer l'arrêt de la carte électronique contrôlant le robot.
+\end{description}
+
+
 \subsection{Utilisation}
 
 \subsubsection{Cablage}
@@ -314,17 +336,6 @@ Il faut 3 cables pour utiliser un servomoteur:
 \item V+ : cela dépend des servomoteirs mais ce sera en général 5V
 \item Signal: un signal PWM est utilisé pour commander 
 \end{itemize}
-
-\subsubsection{Signaux PWM}
-
-\begin{figure}[h!]
-\begin{centering}
-\includegraphics[width=0.5\textwidth]{images/PWMservo.jpeg}
-\caption{Signal PWM pour contrôler un servomoteur}
-\par\end{centering}
-\end{figure}
-
-La durée d'un signal PWM (Pulse Width Modulation) est proportionnelle à la commande. En général, la fréquence est de 50 Hz pour les servomoteurs mais elle peut être différente pour d'autres applications.
 
 \section{Les Dynamixels}
 Ce sont les actionneurs le plus souvent utilisés en robotique. Ils sont produits exclusivement par la société Robotis.
@@ -425,9 +436,19 @@ On distinguera surtout 2 types de ventouses: avec et sans soufflet. Le soufflet 
 
 \subsection{Tubes}
 
+Il faut bien sûr aussi acheter les tubes pour tout relier. Voici les critères importants à regarder quand on achète des tubes:
+\begin{itemize}
+\item Le diamètre intérieur
+\item Le diamètre extérieur
+\item Le rayon de courbure (indique à quel point le tube peut être tordu avant de se boucher)
+\end{itemize}
+
+Le rayon de courbure est très important. Certaines pompes, même si puissantes, ne pourront pas fonctionner correctement si le tube est trop tordu. C'est pourquoi il est parfois nécessaire d'utiliser des raccords qui font des angles droits.
+
 \textbf{Fournisseur:}Amazon, RS,...
 
 \subsection{Valves}
+On peut choisir d'avoir une pompe par ventouse mais cela peut très vite devenir très encombrant. Il faut alors utiliser un système de valves afin de pouvoir bloquer le tube d'une ventouse tout en ouvrant un autre tube. Il existe de vrais valves qu'il est possible d'acheter sur RS. Ces valves seront ensuite actionnées par des servomoteurs. Il est cependant aussi possible de simplement pincer les tubes avec un bras sur un servomoteur. Cela marche aussi très bien.
 
 
 \chapter{Communication}
@@ -496,7 +517,7 @@ Les cartes Arduino sont les cartes de prototypage les plus populaires de part le
 \section{Raspberry Pi}
 C'est un micro-ordinateur. Elle est donc beaucoup plus puissante que la Teensy ou les cartes Arduino. Cependant, elle est aussi limité dans ses capacités.
 
-Avantages:
+\textbf{Avantages:}
 \begin{itemize}
 \item Ports USB
 \item Wifi et bluetooth intégrés pour la version 3B+
@@ -504,9 +525,10 @@ Avantages:
 \item Possibilités de programmer dans n'importe quel language.
 \end{itemize}
 
-Inconvénients:
+\textbf{Inconvénients:}
 \begin{itemize}
 \item Il est difficile de générer des signals PWM
+\item Impossible de lire des signaux PWM
 \item Seulement une vrai liaison série disponible et encore. Elle est normalement dédiée au bluetooth mais on peut l'utiliser pour autre chose si on utilise pas le Bluetooth. Il y a aussi une autre pseudo liaison série mais elle est très limitée.
 \end{itemize}
 
@@ -518,6 +540,11 @@ Inconvénients:
 
 \section{Teensy}
 La teensy est en résumé une version miniature d'une carte arduino, en plus puissante. Elle possède notament plus de sortie série. Elle se programme exactement de la même manière qu'une carte arduino.
+
+\section{Node Mcu}
+C'est une carte équipé commme la Teensy mais elle a une puce Wifi en plus. C'est la carte de prototypage utilisée pour les applications IoT.
+
+
 
 \section{Shield}
 Les différentes cartes électroniques ne possèdent pas tous les capteurs ou sorties nécessaires pour un projet. Pour compenser ces problèmes, des Shield ont été créés. Ce sont des extensions des cartes électroniques très faciles d'utilisation. Cela coûte bien sûr moins cher de les faire soit même mais on est certain au moins que c'est fiable avec un shield.
@@ -652,7 +679,7 @@ ST a développé un capteur sur ce principe a prix très abordable. La technolog
 
 Les capteurs incrémentaux mesurent une rotation.
 
-Il existe des codeurs incrémentaux absolus et relatifs. Cependant, les codeurs absolus sont très chers. En effet, chaque position doit avoir sa m
+Il existe des codeurs incrémentaux absolus et relatifs. Cependant, les codeurs absolus sont très chers. En effet, chaque position doit avoir son propre code ce qui demande des gravures de très grandes précisions. En général, un codeur incrémental relatif est utilisé avec une phase d'initialisation lors de son démarrage avec un capteur de buté.
 
 \begin{figure}[h!]
 \begin{centering}
@@ -663,29 +690,78 @@ Il existe des codeurs incrémentaux absolus et relatifs. Cependant, les codeurs 
 \end{figure}
 
 \section{Caméra}
-Il existe 2 types majoritaires de capteurs photographiques: CDD et CMOS. Cependant, un  nouveau type de capteur fait se popularise dans le milieu de la robotique: DVS.
+Il existe 2 types majoritaires de capteurs photographiques: CDD et CMOS. Cependant, un  nouveau type de capteur fait se popularise dans le milieu de la robotique: DVS (Dynamic Vision Sensor).
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/differenceCDD_CMOS.png}
+\caption{Différences entre capteurs CDD et CMOS}
+\par\end{centering}
+\end{figure}
+
+Pour plus d'information sur la différence technique entre CMOS et CDD: \url{https://www.photoniques.com/articles/photon/pdf/2015/06/photon201579p39.pdf}
+
+Pour plus d'information sur les capteurs DVS: \url{http://rpg.ifi.uzh.ch/docs/EventVisionSurvey.pdf}
 
 \subsection{CDD}
 
+CDD signifie Charged Coupled Device. C'est un capteur avec de meilleurs performances mais beaucoup plus coûteux. Il est notamment utilisé dans l'industrie du cinéma. Il consomme aussi plus de puissance ce qui fait qu'il chauffe aussi plus rapidement. Il faut le refroidir à moins de voir apparaître des signaux parasites.
+
+
 \subsection{CMOS}
 
+CMOS signifie Complementary Metal Oxyde Semiconductor. C'est la technologie la plus récente. Au départ, les CDD possédaient de meilleurs performances mais de plus en plus, cet écart se réduit. Le facteur le plus distinctif entre les 2 caméras est la sensibilité à la lumière. Dans un endroit peu éclairé, il y aura beaucoup de bruit sur une image prise avec un capteur CMOS.
+
 \subsection{DVS}
-Un nouveau type de caméra fait son apparition: DVS (Dynamic Vision Sensor). Ce type de caméra n'enregistre pas une image à chaque pas de temps. Elle suit le même principe que les récepteurs lumineux dans nos yeux et enregistrement seulement les variations de luminosité. Ces caméras ont beaucoup de potentiel. En effet, puisque seulement la variation est enregistrée, il n'y a pas d'informations redondantes et les programmes peuvent être plus rapides. De plus, ces caméras sont plus aptes à enregistrer les mouvements rapides de part leur nature. Contrairement aux capteurs CDD et CMOS, il n'y a pas " de perte d'inforamtion" entre 2 images. Problème: les DVS coûtent très chères et ont encore une très faible résolution pour le prix demandé.
+Un nouveau type de caméra fait son apparition: DVS (Dynamic Vision Sensor). Ce type de caméra n'enregistre pas une image à chaque pas de temps. Elle suit le même principe que les récepteurs lumineux dans nos yeux et enregistrement seulement les variations de luminosité. Ces caméras ont beaucoup de potentiel. En effet, puisque seulement la variation est enregistrée, il n'y a pas d'informations redondantes et les programmes peuvent être plus rapides. De plus, ces caméras sont plus aptes à enregistrer les mouvements rapides de part leur nature. Contrairement aux capteurs CDD et CMOS, il n'y a pas " de perte d'inforamtion" entre 2 images. Problème: les DVS coûtent très chères et ont encore une très faible résolution pour le prix demandé. Cependant, en terme d'application pour la robotique, c'est le futur.
 
 \subsection{Matériel}
-\begin{description}
-\item[Modèle:]
-\item[Fabricant:]
-\item[Fournisseur:]
-\end{description}
+En général, des PiCameras sont utilisés pour les projets demandant de la vision. Il faut distinguer les 1ère versions (V1) et les 2ème versions (V2). Il existe aussi des Picameras qui captent aussi les infrarouges afin d'avoir une vision nocturne (une lampe infrarouge est cependant nécessaire en plus). Dans la plupart des cas, cela suffira.
 
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/picamera.jpg}
+\includegraphics[width=0.5\textwidth]{images/picameraNoir.jpg}
+\caption{Picamera et Picamera Noir}
+\par\end{centering}
+\end{figure}
 
 \subsection{Utilisation}
-\begin{description}
-\item[Lecture de codes couleur:]
-\item[Détection d'obstacle:]
-\item[Positionnement d'objets sur le terrain:]
-\end{description}
+La picamera est facilement utilisable avec Python. Du C++ peut aussi être utilisé pour la commander mais c'est beaucoup plus complexe.
+
+Toutes les informations nécessaires sont présentes sur ce site: \url{https://picamera.readthedocs.io/en/release-1.13/}
+
+\textbf{Possibilités:}
+\begin{itemize}
+\item Choisir la résolution de l'image et le FOV (Field Of View)
+\item Encodage utilisé
+\item Paramètre caméra (saturation, nombre d'image par seconde si on prend une vidéo, ...)
+\end{itemize}
+
+
+\subsection{Autres}
+Intel a développé des caméras avec des cartes intégrés pour exploiter les données des caméras directement. La marque s'appelle RealSense.
+
+\subsubsection{T265}
+Stéréo caméra avec des lentilles fisheyes. Elle ne mesure pas la profondeur d'une image de manière innée. Il faut exploiter les caméras avec OpenCV pour cela. Elle est par contre spécialisé dans le SLAM. La T265 peut mesurer son déplacement et son attitude avec une très grande fiabilité et précision.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/T265.png}
+\caption{T265 d'Intel RealSense}
+\par\end{centering}
+\end{figure}
+
+\subsubsection{D435}
+C'est une stéréocaméra infrarouge qui permet de mesurer la profondeur d'une image. Il y a aussi une caméra RGB pour avoir une image en couleur en plus.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/D435.jpg}
+\caption{D435 d'Intel RealSense}
+\par\end{centering}
+\end{figure}
+
 
 \chapter{Alimentation}
 
@@ -706,6 +782,20 @@ Les choses suivantes peuvent causées l'explosion d'une LiPo.
 
 Si jamais la LiPo est bombée ou a des bosses, il faut absolument s'en débarasser. En attendant, la meilleure solution est de la placé dans un sceau en métal ou sur une surface non-inflammable (pierre, métal, ...). Ce type de batterie doit être jeté à la déchèterie dans la section réservée pour.
 
+\subsubsection{Les critères de sélection}
+\begin{description}
+\item[Taux de décharge:]Indique combien d'ampère la batterie peut fournir en continu. Le taux de décharge est mesuré en C. Il faut appliquer la formule: $Courant Max = C * \frac{Capacité de la batterie (mAh)}{1000}$. Le taux de décharge est souvent surestimé. Prendre un taux de décharge trop petit détériora la batterie est celle-ci pourra gonfler.
+\item[Nombre d'élément:]Correspond à la tension de la batterie. C'est mesuré en S.
+\end{description}
+
+\subsubsection{Les bonnes marques}
+\begin{itemize}
+\item Tattu
+\item Turnigy
+\item Zippy
+\end{itemize}
+Liste non-exhaustive.
+
 \subsection{Nimh}
 Les batteries Nimh sont moins fragiles que les batteries Lipo. Cependant, elles ont une plus faible densité énergétique.
 
@@ -721,19 +811,30 @@ Les différents types de batterie ne se chargent pas de la même façon. Il y a 
 
 Pour les Lipo, il faut aussi brancher la prise d'équilibrage. Ce n'est pas obligatoire mais cela permet de prolonger la durée de vie de la batterie. En effet, au fur et à mesure des différents cycles de charge/décharge, les éléments de la Lipo ne vont pas avoir tous la même tension. La prise d'équilibrage permet d'empécher cela.
 
+Les batteries ont en général un taux de recharge de 1C. Le courant pour recharger la batterie est à définir sur le chargeur. Il faut appliquer la même formule que pour le courant de taux de décharge.
 
 \section{Adapter l'alimentation}
 
 \subsection{BEC}
 Le BEC (Battery Eliminator Circuit) permet de délivrer une tension. Ce circuit appartient à l'électronique de puissance.
 
-\subsection{Régulateurs de tension linéaire}
+Dans la plupart des ESC de nos jours, un BEC est intégré et fournis du 5V.
+
+Il faut distinguer plusieurs BEC:
+\begin{description}
+\item[BEC:]Les BEC de base. Ils utilisent des régulateurs de tension comme expliqué dans la section suivante.
+\item[SBEC:]Switch BEC. Ce sont les BEC qui convertissent toutes la puissance. Le Switch fait référence à comment le signal entrant est traité pour être transformé. Ils utilisent un convertisseur Buck.
+\item[UBEC:]Universal BEC. C'était/c'est une marque de BEC. Il fonctionne sur le même principe que les SBEC, mais il peut y en avoir qui fonctionne encore avec des régulateurs de tension.
+\end{description}
+
+\subsubsection{Régulateurs de tension linéaire}
 Les régulateurs permettent comme les BEC de fournir une tension inférieur à la tension d'alimentation. Cependant, contrairement à un BEC, toute la puissance n'est pas convertie. Une grande partie est perdue par effet joule. C'est pourquoi il ne faut l'utiliser que quand la puissance à dissiper est faible ($P_{dissipée} = (V_{entrée} - V_{sortie})*I$).
 
 \textbf{Inconvénients:}
 \begin{itemize}
 \item Pas efficace, la tension a dissipé l'est sous la forme de chaleur
 \item Cesse de d'alimenter en tension si la température dépasse un certain seuil
+\item Chauffe beaucoup si il y a beaucoup de puissance à dissiper
 \end{itemize}
 
 \textbf{Avantages:}
@@ -742,15 +843,20 @@ Les régulateurs permettent comme les BEC de fournir une tension inférieur à l
 \item Peu cher (de l'ordre de la dizaine de centimes)
 \end{itemize}
 
-\subsubsection{Utilisation}
-
 
 \subsection{Convertisseur Buck}
-C'est le type de circuit qui est utilisé dans 
+C'est ce qu'il faut choisir quand il y a beaucoup de puissance à dissiper (tous les cas sauf quand il faut alimenter un micro-contrôleur en 3.3V en partant de 5V par exemple).
 
-Prix de l'ordre de l'euro
+\textbf{Inconvénients:}
+\begin{itemize}
+\item Prix de l'ordre de l'euro
+\item Utilise une bobine donc peut être source d'interférences électromagnétiques
+\end{itemize}
 
-Utilise une bobine donc peut être source d'interférences électromagnétiques
+\textbf{Avantages:}
+\begin{itemize}
+\item Fort rendement
+\end{itemize}
 
 \chapter{Composants électroniques}
 
@@ -861,6 +967,7 @@ De part la manière dont nous voyons le monde, nous utilisons en général le sy
 \end{figure}
 
 \section{Odométrie visuel}
+Ces algorithmes permettent de mesurer le déplacement effectué entre 2 images. On peut utilisé une seule ou même deux caméras.
 
 \url{https://link.springer.com/article/10.1186/s40064-016-3573-7}
 
@@ -1004,19 +1111,58 @@ git push origin master (Si tu travailles sur la branche principale)
 
 Pour faire communiquer différents appareils électroniques entre eux, il existe plusieurs méthodes.
 
+\section{PWM}
+Il ne s'agit pas d'un protocole de communication à part entière. C'est cependant la méthode la plus basique et facile à comprendre.
+
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{images/PWMservo.jpeg}
+\caption{Signal PWM pour contrôler un servomoteur}
+\par\end{centering}
+\end{figure}
+
+La durée d'un signal PWM (Pulse Width Modulation) est proportionnelle à la commande. En général, la fréquence est de 50 Hz pour les servomoteurs mais elle peut être différente pour d'autres applications.
+
+C'est le signal utilisé pour contrôler aussi les ESC des moteurs brushless et beaucoup de capteurs basique codent l'information en PWM.
+
+\subsection{Lire signal PWM}
+Générer un signal PWM est relativement simple. Les lire est une autre paire de manches. On ne peut pas en effet prévoir quand le signal changera d'état et les microcontrôleurs n'ont pas d'entrée exprès pour les PWM. Il faut donc avoir recours aux interrupts. Le principe revient d'écouter une entrée et d'attacher une fonction qui se déclenchera dès que l'entrée changera d'état (on peut choisir front montant ou descendant). Afin de pouvoir mesurer le temps sans délais, les interrupts interrompent tous les autres processus ce qui peut faire buguer le programme principal. Si c'est le cas, il faut soit prendre un microcontrôleur plus rapide ou avoir un microcontrôleur dédié pour lire les PWM (les valeurs seront ensuite communiqués au microcontrôleur principal par liaison série).
+
 \section{Série}
 Il existe 2 protocoles de communications en série qu'il est facile de confondre. Ils fonctionnent en effet sur le même principe mais pas avec les mêmes tension de référence. C'est pourquoi il est important de bien identifier quel est le protocole série utilisé.
 
 \subsection{UART}
 
+\subsection{Utilisation}
+
 \subsection{TTL}
+
+\subsection{Utilisation}
 
 \section{I2C}
 
+\subsection{Utilisation}
+
 \section{SPI}
+
+\subsection{Utilisation}
 
 \section{CAN}
 Ce protocole de communication a été développé par Bosch pour réduire la quantité de cable dans les voitures. Il permet en effet de faire communiquer plusieurs appareils avec seulement 2 fils.
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.6]{images/principeCAN.png}
+		\caption{Principe CAN}
+	\end{center}
+\end{figure}
+
+\section{Comparaison}
+
+
+
+\subsection{Utilisation}
 
 \part{Automatique}
 
@@ -1113,5 +1259,14 @@ La règle d'or doit toujours être la SIMPLICITÉ. Il faut un système robuste e
 \item Faire une checklist de toutes les tâches à effectuer pour préparer le match. Avec le stress, il n’est pas rare d’oublier quelque chose et de faire rater le match.
 \item Éviter vraiment de faire des changements de dernière minute. En 2017, RCV a perdu en demi-finale car ils ont choisi une stratégie non-testée. Un bug a empêché les 2 robots de démarrer.
 \end{itemize}
+
+\part{Autres}
+
+\chapter{Ressources utiles}
+
+Site web:
+\begin{description}
+\item[Aéromodélisme et drone:] oscarliang.com
+\end{description}
 
 \end{document}

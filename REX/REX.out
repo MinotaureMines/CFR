@@ -14,106 +14,119 @@
 \BOOKMARK [1][-]{section.1.2}{Moteurs \340 courant continu}{chapter.1}% 14
 \BOOKMARK [2][-]{subsection.1.2.1}{Utilisation}{section.1.2}% 15
 \BOOKMARK [1][-]{section.1.3}{Moteurs brushless}{chapter.1}% 16
-\BOOKMARK [2][-]{subsection.1.3.1}{Utilisation}{section.1.3}% 17
-\BOOKMARK [1][-]{section.1.4}{Servomoteurs}{chapter.1}% 18
-\BOOKMARK [2][-]{subsection.1.4.1}{Utilisation}{section.1.4}% 19
-\BOOKMARK [1][-]{section.1.5}{Les Dynamixels}{chapter.1}% 20
-\BOOKMARK [0][-]{chapter.2}{Syst\350me pneumatique}{part.2}% 21
-\BOOKMARK [1][-]{section.2.1}{Pompe}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.1.1}{Utilisation}{section.2.1}% 23
-\BOOKMARK [1][-]{section.2.2}{Ventouse}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.3}{Accessoires et autres}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.3.1}{Tubes}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.2}{Valves}{section.2.3}% 27
-\BOOKMARK [0][-]{chapter.3}{Communication}{part.2}% 28
-\BOOKMARK [1][-]{section.3.1}{Radio}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.2}{Bluetooth}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.3}{Module Xbee}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.3.1}{Architecture r\351seau}{section.3.3}% 32
-\BOOKMARK [0][-]{chapter.4}{Cartes \351lectroniques}{part.2}% 33
-\BOOKMARK [1][-]{section.4.1}{Arduino}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.2}{Raspberry Pi}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.2.1}{Ports USB}{section.4.2}% 36
-\BOOKMARK [1][-]{section.4.3}{Teensy}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.4}{Shield}{chapter.4}% 38
-\BOOKMARK [0][-]{chapter.5}{Capteurs}{part.2}% 39
-\BOOKMARK [1][-]{section.5.1}{GNSS}{chapter.5}% 40
-\BOOKMARK [2][-]{subsection.5.1.1}{NMEA}{section.5.1}% 41
-\BOOKMARK [2][-]{subsection.5.1.2}{Mode de positionnement}{section.5.1}% 42
-\BOOKMARK [1][-]{section.5.2}{LIDAR}{chapter.5}% 43
-\BOOKMARK [2][-]{subsection.5.2.1}{Mat\351riel}{section.5.2}% 44
-\BOOKMARK [2][-]{subsection.5.2.2}{Utilisation}{section.5.2}% 45
-\BOOKMARK [1][-]{section.5.3}{Ultrason}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.4}{Infrarouge}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.4.1}{Utilisation}{section.5.4}% 48
-\BOOKMARK [1][-]{section.5.5}{Capteurs de fin de course}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.6}{Capteur TOF}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.7}{Codeurs incr\351mentaux}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.8}{Cam\351ra}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.8.1}{CDD}{section.5.8}% 53
-\BOOKMARK [2][-]{subsection.5.8.2}{CMOS}{section.5.8}% 54
-\BOOKMARK [2][-]{subsection.5.8.3}{DVS}{section.5.8}% 55
-\BOOKMARK [2][-]{subsection.5.8.4}{Mat\351riel}{section.5.8}% 56
-\BOOKMARK [2][-]{subsection.5.8.5}{Utilisation}{section.5.8}% 57
-\BOOKMARK [0][-]{chapter.6}{Alimentation}{part.2}% 58
-\BOOKMARK [1][-]{section.6.1}{Batterie}{chapter.6}% 59
-\BOOKMARK [2][-]{subsection.6.1.1}{Lipo}{section.6.1}% 60
-\BOOKMARK [2][-]{subsection.6.1.2}{Nimh}{section.6.1}% 61
-\BOOKMARK [2][-]{subsection.6.1.3}{Chargeur}{section.6.1}% 62
-\BOOKMARK [1][-]{section.6.2}{Adapter l'alimentation}{chapter.6}% 63
-\BOOKMARK [2][-]{subsection.6.2.1}{BEC}{section.6.2}% 64
-\BOOKMARK [2][-]{subsection.6.2.2}{R\351gulateurs de tension lin\351aire}{section.6.2}% 65
-\BOOKMARK [2][-]{subsection.6.2.3}{Convertisseur Buck}{section.6.2}% 66
-\BOOKMARK [0][-]{chapter.7}{Composants \351lectroniques}{part.2}% 67
-\BOOKMARK [1][-]{section.7.1}{Fusible}{chapter.7}% 68
-\BOOKMARK [2][-]{subsection.7.1.1}{PTC}{section.7.1}% 69
-\BOOKMARK [2][-]{subsection.7.1.2}{Fusible r\351initialisable}{section.7.1}% 70
-\BOOKMARK [2][-]{subsection.7.1.3}{Thermistor}{section.7.1}% 71
-\BOOKMARK [-1][-]{part.3}{III Programmation}{}% 72
-\BOOKMARK [0][-]{chapter.8}{Raspbian}{part.3}% 73
-\BOOKMARK [1][-]{section.8.1}{Le Set up}{chapter.8}% 74
-\BOOKMARK [1][-]{section.8.2}{Le syst\350me d'exploitation}{chapter.8}% 75
-\BOOKMARK [2][-]{subsection.8.2.1}{Les commandes utiles}{section.8.2}% 76
-\BOOKMARK [2][-]{subsection.8.2.2}{Utiliser une clef USB}{section.8.2}% 77
-\BOOKMARK [0][-]{chapter.9}{Le code}{part.3}% 78
-\BOOKMARK [1][-]{section.9.1}{Python}{chapter.9}% 79
-\BOOKMARK [1][-]{section.9.2}{C/C++}{chapter.9}% 80
-\BOOKMARK [2][-]{subsection.9.2.1}{Cross-compilation}{section.9.2}% 81
-\BOOKMARK [0][-]{chapter.10}{Traitement de signaux GNSS: RTK Lib}{part.3}% 82
-\BOOKMARK [0][-]{chapter.11}{Traitement d'images: OpenCV}{part.3}% 83
-\BOOKMARK [1][-]{section.11.1}{Syst\350mes de couleur}{chapter.11}% 84
-\BOOKMARK [1][-]{section.11.2}{Odom\351trie visuel}{chapter.11}% 85
-\BOOKMARK [1][-]{section.11.3}{Vision st\351r\351oscopique}{chapter.11}% 86
-\BOOKMARK [0][-]{chapter.12}{ROS}{part.3}% 87
-\BOOKMARK [0][-]{chapter.13}{Utilisation d'un Git}{part.3}% 88
-\BOOKMARK [1][-]{section.13.1}{Documenter}{chapter.13}% 89
-\BOOKMARK [2][-]{subsection.13.1.1}{Utilisation de fichier README.md}{section.13.1}% 90
-\BOOKMARK [2][-]{subsection.13.1.2}{Utilisation du Wiki}{section.13.1}% 91
-\BOOKMARK [2][-]{subsection.13.1.3}{Mise en forme du texte}{section.13.1}% 92
-\BOOKMARK [1][-]{section.13.2}{M\351thodologie}{chapter.13}% 93
-\BOOKMARK [2][-]{subsection.13.2.1}{Bases}{section.13.2}% 94
-\BOOKMARK [2][-]{subsection.13.2.2}{Branches}{section.13.2}% 95
-\BOOKMARK [1][-]{section.13.3}{Commandes}{chapter.13}% 96
-\BOOKMARK [0][-]{chapter.14}{Protocole de communication}{part.3}% 97
-\BOOKMARK [1][-]{section.14.1}{S\351rie}{chapter.14}% 98
-\BOOKMARK [2][-]{subsection.14.1.1}{UART}{section.14.1}% 99
-\BOOKMARK [2][-]{subsection.14.1.2}{TTL}{section.14.1}% 100
-\BOOKMARK [1][-]{section.14.2}{I2C}{chapter.14}% 101
-\BOOKMARK [1][-]{section.14.3}{SPI}{chapter.14}% 102
-\BOOKMARK [1][-]{section.14.4}{CAN}{chapter.14}% 103
-\BOOKMARK [-1][-]{part.4}{IV Automatique}{}% 104
-\BOOKMARK [-1][-]{part.5}{V Outils de la menuiserie}{}% 105
-\BOOKMARK [0][-]{chapter.15}{Les machines}{part.5}% 106
-\BOOKMARK [1][-]{section.15.1}{L'imprimante 3D}{chapter.15}% 107
-\BOOKMARK [2][-]{subsection.15.1.1}{Le logiciel: Cura}{section.15.1}% 108
-\BOOKMARK [2][-]{subsection.15.1.2}{Utilisation}{section.15.1}% 109
-\BOOKMARK [1][-]{section.15.2}{La d\351coupeuse laser}{chapter.15}% 110
-\BOOKMARK [2][-]{subsection.15.2.1}{Le logiciel: Inkscape}{section.15.2}% 111
-\BOOKMARK [-1][-]{part.6}{VI Conception}{}% 112
-\BOOKMARK [0][-]{chapter.16}{G\351n\351ral}{part.6}% 113
-\BOOKMARK [0][-]{chapter.17}{CAO}{part.6}% 114
-\BOOKMARK [-1][-]{part.7}{VII La Coupe de France de Robotique}{}% 115
-\BOOKMARK [0][-]{chapter.18}{Pendant l'ann\351e}{part.7}% 116
-\BOOKMARK [0][-]{chapter.19}{Le d\351part}{part.7}% 117
-\BOOKMARK [0][-]{chapter.20}{La comp\351tition}{part.7}% 118
-\BOOKMARK [1][-]{section.20.1}{Les matchs}{chapter.20}% 119
+\BOOKMARK [2][-]{subsection.1.3.1}{Crit\350res de s\351lection}{section.1.3}% 17
+\BOOKMARK [2][-]{subsection.1.3.2}{Utilisation}{section.1.3}% 18
+\BOOKMARK [1][-]{section.1.4}{Servomoteurs}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.4.1}{Crit\350res de s\351lections}{section.1.4}% 20
+\BOOKMARK [2][-]{subsection.1.4.2}{Utilisation}{section.1.4}% 21
+\BOOKMARK [1][-]{section.1.5}{Les Dynamixels}{chapter.1}% 22
+\BOOKMARK [0][-]{chapter.2}{Syst\350me pneumatique}{part.2}% 23
+\BOOKMARK [1][-]{section.2.1}{Pompe}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.1.1}{Utilisation}{section.2.1}% 25
+\BOOKMARK [1][-]{section.2.2}{Ventouse}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.3}{Accessoires et autres}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.3.1}{Tubes}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.2}{Valves}{section.2.3}% 29
+\BOOKMARK [0][-]{chapter.3}{Communication}{part.2}% 30
+\BOOKMARK [1][-]{section.3.1}{Radio}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.2}{Bluetooth}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.3}{Module Xbee}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.1}{Architecture r\351seau}{section.3.3}% 34
+\BOOKMARK [0][-]{chapter.4}{Cartes \351lectroniques}{part.2}% 35
+\BOOKMARK [1][-]{section.4.1}{Arduino}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.2}{Raspberry Pi}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.2.1}{Ports USB}{section.4.2}% 38
+\BOOKMARK [1][-]{section.4.3}{Teensy}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.4}{Node Mcu}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Shield}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{Capteurs}{part.2}% 42
+\BOOKMARK [1][-]{section.5.1}{GNSS}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.1.1}{NMEA}{section.5.1}% 44
+\BOOKMARK [2][-]{subsection.5.1.2}{Mode de positionnement}{section.5.1}% 45
+\BOOKMARK [1][-]{section.5.2}{LIDAR}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.2.1}{Mat\351riel}{section.5.2}% 47
+\BOOKMARK [2][-]{subsection.5.2.2}{Utilisation}{section.5.2}% 48
+\BOOKMARK [1][-]{section.5.3}{Ultrason}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.4}{Infrarouge}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.4.1}{Utilisation}{section.5.4}% 51
+\BOOKMARK [1][-]{section.5.5}{Capteurs de fin de course}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.6}{Capteur TOF}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.7}{Codeurs incr\351mentaux}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.8}{Cam\351ra}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.8.1}{CDD}{section.5.8}% 56
+\BOOKMARK [2][-]{subsection.5.8.2}{CMOS}{section.5.8}% 57
+\BOOKMARK [2][-]{subsection.5.8.3}{DVS}{section.5.8}% 58
+\BOOKMARK [2][-]{subsection.5.8.4}{Mat\351riel}{section.5.8}% 59
+\BOOKMARK [2][-]{subsection.5.8.5}{Utilisation}{section.5.8}% 60
+\BOOKMARK [2][-]{subsection.5.8.6}{Autres}{section.5.8}% 61
+\BOOKMARK [0][-]{chapter.6}{Alimentation}{part.2}% 62
+\BOOKMARK [1][-]{section.6.1}{Batterie}{chapter.6}% 63
+\BOOKMARK [2][-]{subsection.6.1.1}{Lipo}{section.6.1}% 64
+\BOOKMARK [2][-]{subsection.6.1.2}{Nimh}{section.6.1}% 65
+\BOOKMARK [2][-]{subsection.6.1.3}{Chargeur}{section.6.1}% 66
+\BOOKMARK [1][-]{section.6.2}{Adapter l'alimentation}{chapter.6}% 67
+\BOOKMARK [2][-]{subsection.6.2.1}{BEC}{section.6.2}% 68
+\BOOKMARK [2][-]{subsection.6.2.2}{Convertisseur Buck}{section.6.2}% 69
+\BOOKMARK [0][-]{chapter.7}{Composants \351lectroniques}{part.2}% 70
+\BOOKMARK [1][-]{section.7.1}{Fusible}{chapter.7}% 71
+\BOOKMARK [2][-]{subsection.7.1.1}{PTC}{section.7.1}% 72
+\BOOKMARK [2][-]{subsection.7.1.2}{Fusible r\351initialisable}{section.7.1}% 73
+\BOOKMARK [2][-]{subsection.7.1.3}{Thermistor}{section.7.1}% 74
+\BOOKMARK [-1][-]{part.3}{III Programmation}{}% 75
+\BOOKMARK [0][-]{chapter.8}{Raspbian}{part.3}% 76
+\BOOKMARK [1][-]{section.8.1}{Le Set up}{chapter.8}% 77
+\BOOKMARK [1][-]{section.8.2}{Le syst\350me d'exploitation}{chapter.8}% 78
+\BOOKMARK [2][-]{subsection.8.2.1}{Les commandes utiles}{section.8.2}% 79
+\BOOKMARK [2][-]{subsection.8.2.2}{Utiliser une clef USB}{section.8.2}% 80
+\BOOKMARK [0][-]{chapter.9}{Le code}{part.3}% 81
+\BOOKMARK [1][-]{section.9.1}{Python}{chapter.9}% 82
+\BOOKMARK [1][-]{section.9.2}{C/C++}{chapter.9}% 83
+\BOOKMARK [2][-]{subsection.9.2.1}{Cross-compilation}{section.9.2}% 84
+\BOOKMARK [0][-]{chapter.10}{Traitement de signaux GNSS: RTK Lib}{part.3}% 85
+\BOOKMARK [0][-]{chapter.11}{Traitement d'images: OpenCV}{part.3}% 86
+\BOOKMARK [1][-]{section.11.1}{Syst\350mes de couleur}{chapter.11}% 87
+\BOOKMARK [1][-]{section.11.2}{Odom\351trie visuel}{chapter.11}% 88
+\BOOKMARK [1][-]{section.11.3}{Vision st\351r\351oscopique}{chapter.11}% 89
+\BOOKMARK [0][-]{chapter.12}{ROS}{part.3}% 90
+\BOOKMARK [0][-]{chapter.13}{Utilisation d'un Git}{part.3}% 91
+\BOOKMARK [1][-]{section.13.1}{Documenter}{chapter.13}% 92
+\BOOKMARK [2][-]{subsection.13.1.1}{Utilisation de fichier README.md}{section.13.1}% 93
+\BOOKMARK [2][-]{subsection.13.1.2}{Utilisation du Wiki}{section.13.1}% 94
+\BOOKMARK [2][-]{subsection.13.1.3}{Mise en forme du texte}{section.13.1}% 95
+\BOOKMARK [1][-]{section.13.2}{M\351thodologie}{chapter.13}% 96
+\BOOKMARK [2][-]{subsection.13.2.1}{Bases}{section.13.2}% 97
+\BOOKMARK [2][-]{subsection.13.2.2}{Branches}{section.13.2}% 98
+\BOOKMARK [1][-]{section.13.3}{Commandes}{chapter.13}% 99
+\BOOKMARK [0][-]{chapter.14}{Protocole de communication}{part.3}% 100
+\BOOKMARK [1][-]{section.14.1}{PWM}{chapter.14}% 101
+\BOOKMARK [2][-]{subsection.14.1.1}{Lire signal PWM}{section.14.1}% 102
+\BOOKMARK [1][-]{section.14.2}{S\351rie}{chapter.14}% 103
+\BOOKMARK [2][-]{subsection.14.2.1}{UART}{section.14.2}% 104
+\BOOKMARK [2][-]{subsection.14.2.2}{Utilisation}{section.14.2}% 105
+\BOOKMARK [2][-]{subsection.14.2.3}{TTL}{section.14.2}% 106
+\BOOKMARK [2][-]{subsection.14.2.4}{Utilisation}{section.14.2}% 107
+\BOOKMARK [1][-]{section.14.3}{I2C}{chapter.14}% 108
+\BOOKMARK [2][-]{subsection.14.3.1}{Utilisation}{section.14.3}% 109
+\BOOKMARK [1][-]{section.14.4}{SPI}{chapter.14}% 110
+\BOOKMARK [2][-]{subsection.14.4.1}{Utilisation}{section.14.4}% 111
+\BOOKMARK [1][-]{section.14.5}{CAN}{chapter.14}% 112
+\BOOKMARK [1][-]{section.14.6}{Comparaison}{chapter.14}% 113
+\BOOKMARK [2][-]{subsection.14.6.1}{Utilisation}{section.14.6}% 114
+\BOOKMARK [-1][-]{part.4}{IV Automatique}{}% 115
+\BOOKMARK [-1][-]{part.5}{V Outils de la menuiserie}{}% 116
+\BOOKMARK [0][-]{chapter.15}{Les machines}{part.5}% 117
+\BOOKMARK [1][-]{section.15.1}{L'imprimante 3D}{chapter.15}% 118
+\BOOKMARK [2][-]{subsection.15.1.1}{Le logiciel: Cura}{section.15.1}% 119
+\BOOKMARK [2][-]{subsection.15.1.2}{Utilisation}{section.15.1}% 120
+\BOOKMARK [1][-]{section.15.2}{La d\351coupeuse laser}{chapter.15}% 121
+\BOOKMARK [2][-]{subsection.15.2.1}{Le logiciel: Inkscape}{section.15.2}% 122
+\BOOKMARK [-1][-]{part.6}{VI Conception}{}% 123
+\BOOKMARK [0][-]{chapter.16}{G\351n\351ral}{part.6}% 124
+\BOOKMARK [0][-]{chapter.17}{CAO}{part.6}% 125
+\BOOKMARK [-1][-]{part.7}{VII La Coupe de France de Robotique}{}% 126
+\BOOKMARK [0][-]{chapter.18}{Pendant l'ann\351e}{part.7}% 127
+\BOOKMARK [0][-]{chapter.19}{Le d\351part}{part.7}% 128
+\BOOKMARK [0][-]{chapter.20}{La comp\351tition}{part.7}% 129
+\BOOKMARK [1][-]{section.20.1}{Les matchs}{chapter.20}% 130
+\BOOKMARK [-1][-]{part.8}{VIII Autres}{}% 131
+\BOOKMARK [0][-]{chapter.21}{Ressources utiles}{part.8}% 132
