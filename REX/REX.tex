@@ -83,6 +83,30 @@ Minotaure est une association officielle, au même titre que le BDE ou le TRIUM.
 
 \part{Composants}
 
+\chapter{L'électronique de base}
+
+\section{Les commandements}
+\begin{itemize}
+\item \textbf{Toujours les composants électroniques seront branchés afin d'avoir une masse commune}
+Sinon, les cartes pourront cramés en raison d'une différence de potentiel électrique trop grande.
+\item \textbf{Le signal à l'oscilloscope, tu observeras}
+Si tu communiques des informations à travers des câbles et tu ne sais pas pourquoi, la première chose à faire et d'observer le signal avec un oscilloscope ou un analyseur logique afin de s'assurer qu'il correspond bien à ce que tu veux.
+\item \textbf{Les branchements tu vérifieras avant d'alimenter ton circuit}
+C'est si facile de faire une erreur et de détruire des composants.
+\item \textbf{Par étapes, tu feras}
+Il ne faut pas se fixer des objectifs impossibles: il faut reprendre l'exemple de base, le réimplémenter pour vérifier que tout fonctionne à partir de là et ensuite construire par dessus.
+\item \textbf{Organisé tu seras}
+Pas besoin d'expliquer pourquoi.
+\item \textbf{La documentation tu liras}
+Combien de temps j'ai perdu en ne comprenant pas pourquoi ça ne fonctionnait pas alors que la solution était dans la documentation.
+\item \textbf{Une fois tes soudures terminées, aux multimètres tu les vérifieras}
+\end{itemize}
+
+\section{Précautions}
+\begin{description}
+\item[Manipulation de circuit intégré:] Plus les composants sont petits, moins ils sont résistants. Il faut notamment faire attention avec les circuits intégrés. L'électricité statique peut les endommager. Pour se décharger, il suffit de toucher un objet relier à la terre comme la prise terre d'une prise électrique ou le boîtier métallique d'un ordinateur.
+\end{description}
+
 \chapter{Actionneurs}
 
 \section{Moteurs pas-à-pas}
@@ -1109,9 +1133,11 @@ git push origin master (Si tu travailles sur la branche principale)
 
 \chapter{Protocole de communication}
 
+\section{Filaire}
+
 Pour faire communiquer différents appareils électroniques entre eux, il existe plusieurs méthodes.
 
-\section{PWM}
+\subsection{PWM}
 Il ne s'agit pas d'un protocole de communication à part entière. C'est cependant la méthode la plus basique et facile à comprendre.
 
 
@@ -1126,29 +1152,27 @@ La durée d'un signal PWM (Pulse Width Modulation) est proportionnelle à la com
 
 C'est le signal utilisé pour contrôler aussi les ESC des moteurs brushless et beaucoup de capteurs basique codent l'information en PWM.
 
-\subsection{Lire signal PWM}
+\subsubsection{Lire signal PWM}
 Générer un signal PWM est relativement simple. Les lire est une autre paire de manches. On ne peut pas en effet prévoir quand le signal changera d'état et les microcontrôleurs n'ont pas d'entrée exprès pour les PWM. Il faut donc avoir recours aux interrupts. Le principe revient d'écouter une entrée et d'attacher une fonction qui se déclenchera dès que l'entrée changera d'état (on peut choisir front montant ou descendant). Afin de pouvoir mesurer le temps sans délais, les interrupts interrompent tous les autres processus ce qui peut faire buguer le programme principal. Si c'est le cas, il faut soit prendre un microcontrôleur plus rapide ou avoir un microcontrôleur dédié pour lire les PWM (les valeurs seront ensuite communiqués au microcontrôleur principal par liaison série).
 
-\section{Série}
+\subsection{Série}
 Il existe 2 protocoles de communications en série qu'il est facile de confondre. Ils fonctionnent en effet sur le même principe mais pas avec les mêmes tension de référence. C'est pourquoi il est important de bien identifier quel est le protocole série utilisé.
 
-\subsection{UART}
+\subsubsection{UART}
 
-\subsection{Utilisation}
+\subsubsection{TTL}
 
-\subsection{TTL}
+\subsubsection{Utilisation}
 
-\subsection{Utilisation}
+\subsection{I2C}
 
-\section{I2C}
+\subsubsection{Utilisation}
 
-\subsection{Utilisation}
+\subsection{SPI}
 
-\section{SPI}
+\subsubsection{Utilisation}
 
-\subsection{Utilisation}
-
-\section{CAN}
+\subsection{CAN}
 Ce protocole de communication a été développé par Bosch pour réduire la quantité de cable dans les voitures. Il permet en effet de faire communiquer plusieurs appareils avec seulement 2 fils.
 
 \begin{figure}[h!]
@@ -1158,15 +1182,26 @@ Ce protocole de communication a été développé par Bosch pour réduire la qua
 	\end{center}
 \end{figure}
 
-\section{Comparaison}
+\subsection{Comparaison}
 
+\section{Sans-fil}
 
-
-\subsection{Utilisation}
+\subsection{TCP/IP}
 
 \part{Automatique}
 
 Le livre "Probabilistic Robotics" est excellent pour découvrir les différents problèmes de robotique. Il sert de très bonne introduction aux algorithmes de fusion de données pour estimer la position, au contrôle de robots et au SLAM.
+
+\part{Machine learning}
+On ne verra ici que les cas qui peuvent être utile pour la robotique.
+
+\chapter{Apprentissage supervisé}
+
+\section{Reconnaissance d'images}
+
+\chapter{Reinforcement learning}
+
+\section{Loi de commande de robot}
 
 \part{Outils de la menuiserie}
 
