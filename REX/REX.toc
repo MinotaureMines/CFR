@@ -11,138 +11,153 @@
 \contentsline {part}{II\hspace {1em}Composants}{7}{part.2}
 \contentsline {chapter}{\numberline {1}L'\IeC {\'e}lectronique de base}{8}{chapter.1}
 \contentsline {section}{\numberline {1.1}Les commandements}{8}{section.1.1}
-\contentsline {chapter}{\numberline {2}Actionneurs}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Moteurs pas-\IeC {\`a}-pas}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Utilisation}{10}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Moteurs \IeC {\`a} courant continu}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Utilisation}{11}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Moteurs brushless}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Crit\IeC {\`e}res de s\IeC {\'e}lection}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Utilisation}{13}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Servomoteurs}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Crit\IeC {\`e}res de s\IeC {\'e}lections}{14}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Utilisation}{14}{subsection.2.4.2}
-\contentsline {subsubsection}{Cablage}{14}{section*.12}
-\contentsline {section}{\numberline {2.5}Les Dynamixels}{15}{section.2.5}
-\contentsline {chapter}{\numberline {3}Syst\IeC {\`e}me pneumatique}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Pompe}{16}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Utilisation}{16}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Ventouse}{17}{section.3.2}
-\contentsline {section}{\numberline {3.3}Accessoires et autres}{18}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Tubes}{18}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Valves}{18}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Communication}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Radio}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Bluetooth}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Module Xbee}{20}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Architecture r\IeC {\'e}seau}{20}{subsection.4.3.1}
-\contentsline {subsubsection}{\IeC {\textbullet }}{20}{section*.22}
-\contentsline {subsubsection}{\IeC {\textbullet }}{20}{section*.23}
-\contentsline {chapter}{\numberline {5}Cartes \IeC {\'e}lectroniques}{22}{chapter.5}
-\contentsline {section}{\numberline {5.1}Arduino}{22}{section.5.1}
-\contentsline {section}{\numberline {5.2}Raspberry Pi}{22}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Ports USB}{22}{subsection.5.2.1}
-\contentsline {subsubsection}{Interface s\IeC {\'e}rie}{22}{section*.25}
-\contentsline {subsubsection}{Courant}{22}{section*.26}
-\contentsline {section}{\numberline {5.3}Teensy}{22}{section.5.3}
-\contentsline {section}{\numberline {5.4}Node Mcu}{23}{section.5.4}
-\contentsline {section}{\numberline {5.5}Shield}{23}{section.5.5}
-\contentsline {chapter}{\numberline {6}Capteurs}{24}{chapter.6}
-\contentsline {section}{\numberline {6.1}GNSS}{24}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}NMEA}{24}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Mode de positionnement}{24}{subsection.6.1.2}
-\contentsline {subsubsection}{Single}{24}{section*.27}
-\contentsline {subsubsection}{PPP}{24}{section*.28}
-\contentsline {subsubsection}{Diff\IeC {\'e}rentiel}{24}{section*.29}
-\contentsline {section}{\numberline {6.2}LIDAR}{24}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Mat\IeC {\'e}riel}{25}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Utilisation}{25}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Ultrason}{25}{section.6.3}
-\contentsline {section}{\numberline {6.4}Infrarouge}{25}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Utilisation}{26}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Capteurs de fin de course}{26}{section.6.5}
-\contentsline {section}{\numberline {6.6}Capteur TOF}{27}{section.6.6}
-\contentsline {section}{\numberline {6.7}Codeurs incr\IeC {\'e}mentaux}{27}{section.6.7}
-\contentsline {section}{\numberline {6.8}Cam\IeC {\'e}ra}{28}{section.6.8}
-\contentsline {subsection}{\numberline {6.8.1}CDD}{28}{subsection.6.8.1}
-\contentsline {subsection}{\numberline {6.8.2}CMOS}{29}{subsection.6.8.2}
-\contentsline {subsection}{\numberline {6.8.3}DVS}{29}{subsection.6.8.3}
-\contentsline {subsection}{\numberline {6.8.4}Mat\IeC {\'e}riel}{29}{subsection.6.8.4}
-\contentsline {subsection}{\numberline {6.8.5}Utilisation}{29}{subsection.6.8.5}
-\contentsline {subsection}{\numberline {6.8.6}Autres}{29}{subsection.6.8.6}
-\contentsline {subsubsection}{T265}{29}{section*.38}
-\contentsline {subsubsection}{D435}{29}{section*.40}
-\contentsline {chapter}{\numberline {7}Alimentation}{32}{chapter.7}
-\contentsline {section}{\numberline {7.1}Batterie}{32}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Lipo}{32}{subsection.7.1.1}
-\contentsline {subsubsection}{Les crit\IeC {\`e}res de s\IeC {\'e}lection}{32}{section*.42}
-\contentsline {subsubsection}{Les bonnes marques}{32}{section*.43}
-\contentsline {subsection}{\numberline {7.1.2}Nimh}{32}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Chargeur}{33}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Adapter l'alimentation}{33}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}BEC}{33}{subsection.7.2.1}
-\contentsline {subsubsection}{R\IeC {\'e}gulateurs de tension lin\IeC {\'e}aire}{33}{section*.45}
-\contentsline {subsection}{\numberline {7.2.2}Convertisseur Buck}{34}{subsection.7.2.2}
-\contentsline {chapter}{\numberline {8}Composants \IeC {\'e}lectroniques}{35}{chapter.8}
-\contentsline {section}{\numberline {8.1}Fusible}{35}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}PTC}{35}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Fusible r\IeC {\'e}initialisable}{35}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Thermistor}{35}{subsection.8.1.3}
-\contentsline {part}{III\hspace {1em}Programmation}{36}{part.3}
-\contentsline {chapter}{\numberline {9}Raspbian}{37}{chapter.9}
-\contentsline {section}{\numberline {9.1}Le Set up}{37}{section.9.1}
-\contentsline {section}{\numberline {9.2}Le syst\IeC {\`e}me d'exploitation}{37}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Les commandes utiles}{37}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Utiliser une clef USB}{38}{subsection.9.2.2}
-\contentsline {chapter}{\numberline {10}Le code}{39}{chapter.10}
-\contentsline {section}{\numberline {10.1}Python}{39}{section.10.1}
-\contentsline {section}{\numberline {10.2}C/C++}{39}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Cross-compilation}{39}{subsection.10.2.1}
-\contentsline {chapter}{\numberline {11}Traitement de signaux GNSS: RTK Lib}{40}{chapter.11}
-\contentsline {chapter}{\numberline {12}Traitement d'images: OpenCV}{41}{chapter.12}
-\contentsline {section}{\numberline {12.1}Syst\IeC {\`e}mes de couleur}{41}{section.12.1}
-\contentsline {section}{\numberline {12.2}Odom\IeC {\'e}trie visuel}{41}{section.12.2}
-\contentsline {section}{\numberline {12.3}Vision st\IeC {\'e}r\IeC {\'e}oscopique}{42}{section.12.3}
-\contentsline {chapter}{\numberline {13}ROS}{43}{chapter.13}
-\contentsline {chapter}{\numberline {14}Utilisation d'un Git}{44}{chapter.14}
-\contentsline {section}{\numberline {14.1}Documenter}{44}{section.14.1}
-\contentsline {subsection}{\numberline {14.1.1}Utilisation de fichier README.md}{44}{subsection.14.1.1}
-\contentsline {subsection}{\numberline {14.1.2}Utilisation du Wiki}{44}{subsection.14.1.2}
-\contentsline {subsection}{\numberline {14.1.3}Mise en forme du texte}{44}{subsection.14.1.3}
-\contentsline {section}{\numberline {14.2}M\IeC {\'e}thodologie}{45}{section.14.2}
-\contentsline {subsection}{\numberline {14.2.1}Bases}{45}{subsection.14.2.1}
-\contentsline {subsection}{\numberline {14.2.2}Branches}{45}{subsection.14.2.2}
-\contentsline {section}{\numberline {14.3}Commandes}{45}{section.14.3}
-\contentsline {chapter}{\numberline {15}Protocole de communication}{47}{chapter.15}
-\contentsline {section}{\numberline {15.1}PWM}{47}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}Lire signal PWM}{47}{subsection.15.1.1}
-\contentsline {section}{\numberline {15.2}S\IeC {\'e}rie}{47}{section.15.2}
-\contentsline {subsection}{\numberline {15.2.1}UART}{48}{subsection.15.2.1}
-\contentsline {subsection}{\numberline {15.2.2}Utilisation}{48}{subsection.15.2.2}
-\contentsline {subsection}{\numberline {15.2.3}TTL}{48}{subsection.15.2.3}
-\contentsline {subsection}{\numberline {15.2.4}Utilisation}{48}{subsection.15.2.4}
-\contentsline {section}{\numberline {15.3}I2C}{48}{section.15.3}
-\contentsline {subsection}{\numberline {15.3.1}Utilisation}{48}{subsection.15.3.1}
-\contentsline {section}{\numberline {15.4}SPI}{48}{section.15.4}
-\contentsline {subsection}{\numberline {15.4.1}Utilisation}{48}{subsection.15.4.1}
-\contentsline {section}{\numberline {15.5}CAN}{48}{section.15.5}
-\contentsline {section}{\numberline {15.6}Comparaison}{48}{section.15.6}
-\contentsline {subsection}{\numberline {15.6.1}Utilisation}{48}{subsection.15.6.1}
-\contentsline {part}{IV\hspace {1em}Automatique}{49}{part.4}
-\contentsline {part}{V\hspace {1em}Outils de la menuiserie}{51}{part.5}
-\contentsline {chapter}{\numberline {16}Les machines}{52}{chapter.16}
-\contentsline {section}{\numberline {16.1}L'imprimante 3D}{52}{section.16.1}
-\contentsline {subsection}{\numberline {16.1.1}Le logiciel: Cura}{53}{subsection.16.1.1}
-\contentsline {subsection}{\numberline {16.1.2}Utilisation}{53}{subsection.16.1.2}
-\contentsline {section}{\numberline {16.2}La d\IeC {\'e}coupeuse laser}{53}{section.16.2}
-\contentsline {subsection}{\numberline {16.2.1}Le logiciel: Inkscape}{53}{subsection.16.2.1}
-\contentsline {part}{VI\hspace {1em}Conception}{55}{part.6}
-\contentsline {chapter}{\numberline {17}G\IeC {\'e}n\IeC {\'e}ral}{56}{chapter.17}
-\contentsline {chapter}{\numberline {18}CAO}{57}{chapter.18}
-\contentsline {part}{VII\hspace {1em}La Coupe de France de Robotique}{58}{part.7}
-\contentsline {chapter}{\numberline {19}Pendant l'ann\IeC {\'e}e}{59}{chapter.19}
-\contentsline {chapter}{\numberline {20}Le d\IeC {\'e}part}{60}{chapter.20}
-\contentsline {chapter}{\numberline {21}La comp\IeC {\'e}tition}{61}{chapter.21}
-\contentsline {section}{\numberline {21.1}Les matchs}{61}{section.21.1}
-\contentsline {part}{VIII\hspace {1em}Autres}{62}{part.8}
-\contentsline {chapter}{\numberline {22}Ressources utiles}{63}{chapter.22}
+\contentsline {section}{\numberline {1.2}Pr\IeC {\'e}cautions}{8}{section.1.2}
+\contentsline {section}{\numberline {1.3}R\IeC {\'e}alisation de circuits \IeC {\'e}lectriques}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Plaque d'essai sans soudure}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Plaque d'essai avec soudure - Perfboard}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Circuit sur mesure - PCB}{9}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Les cables}{10}{section.1.4}
+\contentsline {section}{\numberline {1.5}Les connecteurs}{11}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Connecteurs Dupont et JST}{11}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Wago}{12}{subsection.1.5.2}
+\contentsline {chapter}{\numberline {2}Actionneurs}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Moteurs pas-\IeC {\`a}-pas}{14}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Utilisation}{15}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Moteurs \IeC {\`a} courant continu}{16}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Utilisation}{16}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Moteurs brushless}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Crit\IeC {\`e}res de s\IeC {\'e}lection}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Utilisation}{18}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Servomoteurs}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Crit\IeC {\`e}res de s\IeC {\'e}lections}{19}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Utilisation}{19}{subsection.2.4.2}
+\contentsline {subsubsection}{Cablage}{19}{section*.19}
+\contentsline {section}{\numberline {2.5}Les Dynamixels}{20}{section.2.5}
+\contentsline {chapter}{\numberline {3}Syst\IeC {\`e}me pneumatique}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pompe}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Utilisation}{21}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Ventouse}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Accessoires et autres}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tubes}{23}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Valves}{23}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Communication}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Radio}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Bluetooth}{24}{section.4.2}
+\contentsline {section}{\numberline {4.3}Module Xbee}{25}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Architecture r\IeC {\'e}seau}{25}{subsection.4.3.1}
+\contentsline {subsubsection}{\IeC {\textbullet }}{25}{section*.29}
+\contentsline {subsubsection}{\IeC {\textbullet }}{25}{section*.30}
+\contentsline {chapter}{\numberline {5}Cartes \IeC {\'e}lectroniques}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Arduino}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Raspberry Pi}{27}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Ports USB}{27}{subsection.5.2.1}
+\contentsline {subsubsection}{Interface s\IeC {\'e}rie}{27}{section*.32}
+\contentsline {subsubsection}{Courant}{27}{section*.33}
+\contentsline {section}{\numberline {5.3}Teensy}{27}{section.5.3}
+\contentsline {section}{\numberline {5.4}Node Mcu}{28}{section.5.4}
+\contentsline {section}{\numberline {5.5}Shield}{28}{section.5.5}
+\contentsline {chapter}{\numberline {6}Capteurs}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}GNSS}{29}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}NMEA}{29}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Mode de positionnement}{29}{subsection.6.1.2}
+\contentsline {subsubsection}{Single}{29}{section*.34}
+\contentsline {subsubsection}{PPP}{29}{section*.35}
+\contentsline {subsubsection}{Diff\IeC {\'e}rentiel}{29}{section*.36}
+\contentsline {section}{\numberline {6.2}LIDAR}{29}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Mat\IeC {\'e}riel}{30}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Utilisation}{30}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Ultrason}{30}{section.6.3}
+\contentsline {section}{\numberline {6.4}Infrarouge}{30}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Utilisation}{31}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Capteurs de fin de course}{31}{section.6.5}
+\contentsline {section}{\numberline {6.6}Capteur TOF}{32}{section.6.6}
+\contentsline {section}{\numberline {6.7}Codeurs incr\IeC {\'e}mentaux}{32}{section.6.7}
+\contentsline {section}{\numberline {6.8}Cam\IeC {\'e}ra}{33}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}CDD}{33}{subsection.6.8.1}
+\contentsline {subsection}{\numberline {6.8.2}CMOS}{34}{subsection.6.8.2}
+\contentsline {subsection}{\numberline {6.8.3}DVS}{34}{subsection.6.8.3}
+\contentsline {subsection}{\numberline {6.8.4}Mat\IeC {\'e}riel}{34}{subsection.6.8.4}
+\contentsline {subsection}{\numberline {6.8.5}Utilisation}{34}{subsection.6.8.5}
+\contentsline {subsection}{\numberline {6.8.6}Autres}{34}{subsection.6.8.6}
+\contentsline {subsubsection}{T265}{34}{section*.45}
+\contentsline {subsubsection}{D435}{34}{section*.47}
+\contentsline {chapter}{\numberline {7}Alimentation}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}Batterie}{37}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Lipo}{37}{subsection.7.1.1}
+\contentsline {subsubsection}{Les crit\IeC {\`e}res de s\IeC {\'e}lection}{37}{section*.49}
+\contentsline {subsubsection}{Les bonnes marques}{37}{section*.50}
+\contentsline {subsection}{\numberline {7.1.2}Nimh}{37}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Chargeur}{38}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Adapter l'alimentation}{38}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}BEC}{38}{subsection.7.2.1}
+\contentsline {subsubsection}{R\IeC {\'e}gulateurs de tension lin\IeC {\'e}aire}{38}{section*.52}
+\contentsline {subsection}{\numberline {7.2.2}Convertisseur Buck}{39}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Composants \IeC {\'e}lectroniques}{40}{chapter.8}
+\contentsline {section}{\numberline {8.1}Fusible}{40}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}PTC}{40}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Fusible r\IeC {\'e}initialisable}{40}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Thermistor}{40}{subsection.8.1.3}
+\contentsline {part}{III\hspace {1em}Programmation}{41}{part.3}
+\contentsline {chapter}{\numberline {9}Raspbian}{42}{chapter.9}
+\contentsline {section}{\numberline {9.1}Le Set up}{42}{section.9.1}
+\contentsline {section}{\numberline {9.2}Le syst\IeC {\`e}me d'exploitation}{42}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Les commandes utiles}{42}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Utiliser une clef USB}{43}{subsection.9.2.2}
+\contentsline {chapter}{\numberline {10}Le code}{44}{chapter.10}
+\contentsline {section}{\numberline {10.1}Python}{44}{section.10.1}
+\contentsline {section}{\numberline {10.2}C/C++}{44}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Cross-compilation}{44}{subsection.10.2.1}
+\contentsline {chapter}{\numberline {11}Traitement de signaux GNSS: RTK Lib}{45}{chapter.11}
+\contentsline {chapter}{\numberline {12}Traitement d'images: OpenCV}{46}{chapter.12}
+\contentsline {section}{\numberline {12.1}Syst\IeC {\`e}mes de couleur}{46}{section.12.1}
+\contentsline {section}{\numberline {12.2}Odom\IeC {\'e}trie visuel}{46}{section.12.2}
+\contentsline {section}{\numberline {12.3}Vision st\IeC {\'e}r\IeC {\'e}oscopique}{47}{section.12.3}
+\contentsline {chapter}{\numberline {13}ROS}{48}{chapter.13}
+\contentsline {chapter}{\numberline {14}Utilisation d'un Git}{49}{chapter.14}
+\contentsline {section}{\numberline {14.1}Documenter}{49}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Utilisation de fichier README.md}{49}{subsection.14.1.1}
+\contentsline {subsection}{\numberline {14.1.2}Utilisation du Wiki}{49}{subsection.14.1.2}
+\contentsline {subsection}{\numberline {14.1.3}Mise en forme du texte}{49}{subsection.14.1.3}
+\contentsline {section}{\numberline {14.2}M\IeC {\'e}thodologie}{50}{section.14.2}
+\contentsline {subsection}{\numberline {14.2.1}Bases}{50}{subsection.14.2.1}
+\contentsline {subsection}{\numberline {14.2.2}Branches}{50}{subsection.14.2.2}
+\contentsline {section}{\numberline {14.3}Commandes}{50}{section.14.3}
+\contentsline {chapter}{\numberline {15}Protocole de communication}{52}{chapter.15}
+\contentsline {section}{\numberline {15.1}Filaire}{52}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}PWM}{52}{subsection.15.1.1}
+\contentsline {subsubsection}{Lire signal PWM}{52}{section*.58}
+\contentsline {subsection}{\numberline {15.1.2}S\IeC {\'e}rie}{52}{subsection.15.1.2}
+\contentsline {subsubsection}{UART}{53}{section*.59}
+\contentsline {subsubsection}{TTL}{53}{section*.60}
+\contentsline {subsubsection}{Utilisation}{53}{section*.61}
+\contentsline {subsection}{\numberline {15.1.3}I2C}{53}{subsection.15.1.3}
+\contentsline {subsubsection}{Utilisation}{53}{section*.62}
+\contentsline {subsection}{\numberline {15.1.4}SPI}{53}{subsection.15.1.4}
+\contentsline {subsubsection}{Utilisation}{53}{section*.63}
+\contentsline {subsection}{\numberline {15.1.5}CAN}{53}{subsection.15.1.5}
+\contentsline {subsection}{\numberline {15.1.6}Comparaison}{53}{subsection.15.1.6}
+\contentsline {section}{\numberline {15.2}Sans-fil}{53}{section.15.2}
+\contentsline {subsection}{\numberline {15.2.1}TCP/IP}{53}{subsection.15.2.1}
+\contentsline {part}{IV\hspace {1em}Automatique}{54}{part.4}
+\contentsline {part}{V\hspace {1em}Machine learning}{56}{part.5}
+\contentsline {chapter}{\numberline {16}Apprentissage supervis\IeC {\'e}}{58}{chapter.16}
+\contentsline {section}{\numberline {16.1}Reconnaissance d'images}{58}{section.16.1}
+\contentsline {chapter}{\numberline {17}Reinforcement learning}{59}{chapter.17}
+\contentsline {section}{\numberline {17.1}Loi de commande de robot}{59}{section.17.1}
+\contentsline {part}{VI\hspace {1em}Outils de la menuiserie}{60}{part.6}
+\contentsline {chapter}{\numberline {18}Les machines}{61}{chapter.18}
+\contentsline {section}{\numberline {18.1}L'imprimante 3D}{61}{section.18.1}
+\contentsline {subsection}{\numberline {18.1.1}Le logiciel: Cura}{62}{subsection.18.1.1}
+\contentsline {subsection}{\numberline {18.1.2}Utilisation}{62}{subsection.18.1.2}
+\contentsline {section}{\numberline {18.2}La d\IeC {\'e}coupeuse laser}{62}{section.18.2}
+\contentsline {subsection}{\numberline {18.2.1}Le logiciel: Inkscape}{62}{subsection.18.2.1}
+\contentsline {part}{VII\hspace {1em}Conception}{64}{part.7}
+\contentsline {chapter}{\numberline {19}G\IeC {\'e}n\IeC {\'e}ral}{65}{chapter.19}
+\contentsline {chapter}{\numberline {20}CAO}{66}{chapter.20}
+\contentsline {part}{VIII\hspace {1em}La Coupe de France de Robotique}{67}{part.8}
+\contentsline {chapter}{\numberline {21}Pendant l'ann\IeC {\'e}e}{68}{chapter.21}
+\contentsline {chapter}{\numberline {22}Le d\IeC {\'e}part}{69}{chapter.22}
+\contentsline {chapter}{\numberline {23}La comp\IeC {\'e}tition}{70}{chapter.23}
+\contentsline {section}{\numberline {23.1}Les matchs}{70}{section.23.1}
+\contentsline {part}{IX\hspace {1em}Autres}{71}{part.9}
+\contentsline {chapter}{\numberline {24}Ressources utiles}{72}{chapter.24}

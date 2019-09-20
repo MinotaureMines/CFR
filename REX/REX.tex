@@ -100,12 +100,198 @@ Pas besoin d'expliquer pourquoi.
 \item \textbf{La documentation tu liras}
 Combien de temps j'ai perdu en ne comprenant pas pourquoi ça ne fonctionnait pas alors que la solution était dans la documentation.
 \item \textbf{Une fois tes soudures terminées, aux multimètres tu les vérifieras}
+\item \textbf{La tension tu vérifieras}
+De nos jours, les circuits peuvent fonctionner avec une alimentation de 5V et de 3.3V mais pouvoir seulement lire du 3.3V comme la rasperry pi 3. IL faut vérifier avec quelle tension le composant fonctionne.
 \end{itemize}
 
 \section{Précautions}
 \begin{description}
 \item[Manipulation de circuit intégré:] Plus les composants sont petits, moins ils sont résistants. Il faut notamment faire attention avec les circuits intégrés. L'électricité statique peut les endommager. Pour se décharger, il suffit de toucher un objet relier à la terre comme la prise terre d'une prise électrique ou le boîtier métallique d'un ordinateur.
 \end{description}
+
+\section{Réalisation de circuits électriques}
+
+\subsection{Plaque d'essai sans soudure}
+Quand il s'agit de prototyper, il faut utiliser les plaques à essai sans soudure.
+
+\begin{figure}[h]
+\caption{Plaque à essai sans soudure}
+
+\centering{}\includegraphics[width=0.5\textwidth]{images/breadboard.jpg}\includegraphics[width=0.5\textwidth]{images/breadboardConnections.jpg}
+\end{figure}
+
+Il ne faut cependant pas rester sur cette mise en place de l'électronique. Les câbles peuvent facilement partir et le câblage est difficile. Les erreurs sont vites arrivées.
+
+\subsection{Plaque d'essai avec soudure - Perfboard}
+
+\begin{figure}[h]
+\caption{Perfboard (gauche) / Perma-proto board (droite)}
+
+per\centering{}\includegraphics[width=0.5\textwidth]{images/perfboard}\includegraphics[width=0.6\textwidth]{images/perma_proto_board.jpg}
+\end{figure}
+
+La façon la plus propre de réaliser des circuits électroniques est
+de rassembler les composants sur des cartes. Il est possible de le
+faire à la main, sans avoir à faire fabriquer un circuit imprimé.
+Pour cela, on utilise ce que les anglophones appellent des ''perfboards'',
+qui sont des cartes faites pour y souder des composants ''through
+hole'' ainsi que des fils et y réaliser des circuits. En français,
+le terme consacré est carte ou platine de prototypage et on en trouve
+facilement sur tous les sites d'électronique.
+
+Une variante intéressante est la gamme de ''perma-proto boards''
+conçue par Adafruit. Il s'agit de perfboards où certaines connexions
+électriques sont déjà réalisées, reprenant le schéma de connexion
+d'une breadboard (googlez breadboard si vous ne connaissez pas le
+terme).
+
+L'immense majorité de ces platines possède un espacement entre trous
+de 2.54mm (0.1 inch), ce qui est l'espacement standard entre pins
+pour les composants ''through hole'', et permet donc d'y souder
+la plupart de ces composants.
+
+\subsection{Circuit sur mesure - PCB}
+Si la perfboard permet déjà de réaliser des circuits électriques plus
+propres, le niveau ultime est de faire fabriquer un circuit imprimé,
+dans lequel les connexions électriques sont imprimées sur la carte
+(sur un certain nombre de couches), ce qui fait qu'il ne reste plus
+qu'à souder les composants ''through hole'' pour obtenir tous les
+circuits. Si vous ne voyez pas bien ce qu'est un circuit imprimé,
+lisez l'article intitulé ''PCB Basics'' sur le site de sparkfun.
+
+Si la plupart des logiciels de conception sont assez difficiles à
+prendre en main, il en existe un très simple qui est amplement suffisant
+pour des besoins basiques (c'est à dire faire de la perfboard améliorée
+en gros) : Fritzing. Tous ce que vous avez à faire grosso modo est
+de définir la taille de votre PCB (printed circuit board, c'est à
+dire circuit imprimé), à positionner dessus les trous pour les connexions
+aux composants ''through hole'' (grâce au composant via du logiciel)
+et à les relier entre eux. Vous pouvez aussi ajouter du texte, des
+logos sur votre carte ou placer des trous de fixation par exemple.
+
+\begin{figure}[h]
+\caption{Aperçu du logiciel Fritzing}
+
+\centering{}\includegraphics[width=1\textwidth]{images/fritzing}
+\end{figure}
+
+La difficulté consiste à tout bien dimensionner, que ce soit pour
+les considérations mécaniques (vérifier que les pins rentrent dans
+les trous ...etc), électriques (calculer l'intensité max que permettent
+vos connexions, espacer assez les différentes connexions ...etc),
+ou les contraintes imposées par le fabricant, puisque tout design
+n'est pas réalisable (si vous demandez des espacements trop faibles
+entre différents trous par exemple, mais en pratique les problèmes
+arrivent pour des designs vraiment compliqués). L'utilisation du logiciel
+est un jeu d'enfant (d'ailleurs il a en partie été pensé pour des
+enfants, n'hésitez pas à trouver quelques tutos sur internet), mais
+le logiciel vous permet quand même d'exporter votre design sous la
+forme de ''Gerber files'', ce qui est le standard de l'industrie
+pour la fabrication de circuits imprimés.
+
+Une fois ces fichiers obtenus, il y a plein de sites chinois qui peuvent
+fabriquer votre design pour un prix ridiculement bas (quelques dollars),
+le principal coût étant les frais de port (attention aux délais de
+livraison aussi). Le meilleur d'entre eux est JLC PCB, qui offre un
+service impeccable au meilleur prix (fabrication en 2 jours ouvrés
+et livraison en 5 jours ouvrés en choisissant le transporteur DHL).
+
+N'hésitez pas à utiliser cette méthode, c'est vraiment simple, pas
+cher et ça permet d'avoir des circuits d'une qualité incomparable.
+
+\section{Les cables}
+
+
+
+La documentation technique du concours impose certaines sections minimales
+de fil électrique pour les circuits de puissance (alimentation du
+variateur et du moteur). Les sections de fil électrique sont le plus
+souvent mesurées en AWG (selon l'American Wire Gauge, cf wikipedia),
+ce qui correspond à une aire. Vous pouvez trouver des tableaux reliant
+l'AWG d'un fil à l'intensité maximale recommandée (qui est aussi fonction
+du nombre de brins notamment).
+
+\begin{figure}[h]
+\caption{Tableau des AWG}
+
+\centering{}\includegraphics[width=0.5\textwidth]{images/AWGchart.jpg}
+\end{figure}
+
+Pour trouver des fils de grande section pour les circuits de puissance,
+le mieux est d'utiliser le matériel utilisé dans les installations
+électriques domestiques, et donc de se rendre dans un magasin de bricolage.
+
+\section{Les connecteurs}
+
+\subsection{Connecteurs Dupont et JST}
+
+Les connecteurs entrent en jeu quand il s'agit de connecter un circuit
+à un composant externe ou à un autre circuit. J'ai principalement
+travaillé avec deux types de connecteurs : Dupont et JST.
+
+\begin{figure}[h]
+\caption{Connecteurs Dupont femelle (gauche) / Rangée de pins (droite)}
+
+\centering{}\includegraphics[width=0.5\textwidth]{images/dupont_femelle.jpg}\includegraphics[width=0.5\textwidth]{images/pin_header.jpg}
+\end{figure}
+
+Le plus grand avantage des Dupont est qu'ils sont extrêmement courants,
+on trouve facilement des cables male-femelle, femelle-femelle ...etc
+(tout ce que vous voulez), et surtout que le connecteur Dupont mâle
+n'est rien d'autre qu'un pin, il n'y a rien de plus simple !
+
+Du coup, vous pouvez simplement souder une rangée de pins (pin headers
+en anglais, barrette mâle en français) à votre carte électronique
+et y brancher des cables Dupont qui pourront faire la liaison avec
+d'autre circuits ou composants.
+
+Niveau inconvénients, les connecteurs Dupont ne sont pas prévus pour
+des courants très importants et la liaison mécanique entre le pin
+et le connecteur femelle saute assez facilement.
+
+Pour les deux problèmes cités, les connecteurs JST sont une amélioration,
+mais demandent plus d'effort puisqu'ils demandent un sertissage.
+
+\begin{figure}[h]
+\caption{Connecteur JST}
+
+\centering{}\includegraphics[width=0.5\textwidth]{images/jst}
+\end{figure}
+
+Il existe différents formats (2 pin, 3 pin, ...etc) et le mieux est
+souvent d'acheter un kit jst (on en trouve plein sur amazon), qui
+comprendra des connecteurs male et femelle de différents formats et
+de quoi les sertir.
+
+\subsection{Wago}
+
+Il est parfois très utile de pouvoir connecter deux fils de haute
+puissance de façon non définitive, en ayant la possibilité de défaire
+et refaire la connexion un grand nombre de fois.
+
+\begin{figure}[h]
+\caption{Wago à levier, max 4mm (gauche) / Wago pour fils
+de grande section, max 6mm (droite)}
+
+\centering{}\includegraphics[width=0.5\textwidth]{images/wago_levier.jpg}\includegraphics[width=0.5\textwidth]{images/wago_6mm2.jpg}
+\end{figure}
+
+Les électriciens utilisaient auparavant des dominos pour faire cela,
+mais les wago (de la marque Wago) sont une alternative bien plus pratique
+(connexion extrêmement robustes, bien plus rapide à faire et défaire).
+
+Pour quoi faire si on a déjà des connecteurs et que l'on peut souder
+les fils entre eux ? Déjà, en fonction de la qualité de vos soudures,
+les wago peuvent permettre une connexion mécaniquement plus solide.
+Ensuite, on a parfois besoin de faire passer des cables de haute puissance
+d'un boîtier à un autre, et s'ils sont munis de gros connecteurs,
+il peut être difficile de les faire passer à travers les sorties étanches
+du boîtier, d'où l'intérêt de pouvoir faire et défaire la connexion
+du fil aux connecteurs dans chacun des boîtiers.
+
+Les wagos à levier se trouvent facilement en magasin de bricolage,
+les wagos compatibles 6mm sont plus difficiles à
+trouver, mais on en trouve sur amazon.
 
 \chapter{Actionneurs}
 
