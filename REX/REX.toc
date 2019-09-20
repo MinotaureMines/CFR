@@ -161,3 +161,4 @@
 \contentsline {section}{\numberline {23.1}Les matchs}{70}{section.23.1}
 \contentsline {part}{IX\hspace {1em}Autres}{71}{part.9}
 \contentsline {chapter}{\numberline {24}Ressources utiles}{72}{chapter.24}
+\contentsline {section}{\numberline {24.1}Information}{72}{section.24.1}
